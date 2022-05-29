@@ -1,0 +1,58 @@
+<html>
+
+<body>
+    <h1>InstaGatos</h1>
+    <main>
+        <!-- Paso 38: Introducción
+            Para poder acceder a los datos de un formulario a través de la ubicación especificada en el atributo action,
+            debes proporcionarle al campo de texto el atributo name y asignarle un valor para representar la data que será enviada.
+            Por ejemplo, puedes utilizar la siguiente sintaxis para el campo de texto de una dirección de correo: <input type="text" name="email">.
+        -->
+        <section>
+            <h2>Fotos de Gatos</h2>
+            <!-- TAREA: Agregar enlace a fotos de gatos. -->
+            <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+            <a href="https://freecatphotoapp.com">
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                    alt="Un lindo gatito acostado boca arriba">
+            </a>
+        </section>
+        <section>
+            <h2>Listas de Gatos</h2>
+            <h3>Cosas que los gatos aman:</h3>
+
+            <ul>
+                <li>Siesta</li>
+                <li>Punteros Laser</li>
+                <li>Lasaña</li>
+            </ul>
+
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                    alt="Una rebanada de lasaña">
+                <figcaption>Los gatos <em>aman</em> la lasaña</figcaption>
+            </figure>
+            <h3>Top 3 de cosas que los gatos odian:</h3>
+            <ol>
+                <li>Tratamiento antipulgas</li>
+                <li>Truenos</li>
+                <li>Otros gatos</li>
+            </ol>
+            <!-- Paso 38: 
+                Añade el atributo name con el valor 'urlfotodegato' a tu campo de texto.
+            -->
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                    alt="Cinco gatos mirando alrededor de un campo">
+                <figcaption>Los gatos <strong>odian</strong> otros gatos</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Formulario de gato</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <input type="text" name="urlfotodegato">
+            </form>
+        </section>
+
+    </main>
+</body>
