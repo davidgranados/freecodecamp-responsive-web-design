@@ -1,125 +1,74 @@
-<html>
-  <head>
-    <base href="" />
-    <title>CatPhotoApp</title>
-  </head>
+<!DOCTYPE html>
+<html lang="es">
 
-  <body>
-    <h1>CatPhotoApp</h1>
-    <main>
-      <section>
-        <h2>Cat Photos</h2>
-        <!-- TODO: Add link to cat photos -->
-        <p>
-          Click here to view more
-          <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.
-        </p>
-        <a href="https://freecatphotoapp.com"
-          ><img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-            alt="A cute orange cat lying on its back."
-        /></a>
-      </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
-            alt="A slice of lasagna on a plate."
-          />
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img
-            src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
-            alt="Five cats looking around a field."
-          />
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
-        </figure>
-      </section>
-      <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label
-              ><input
-                id="indoor"
-                type="radio"
-                name="indoor-outdoor"
-                value="indoor"
-                checked=""
-              />
-              Indoor</label
-            >
-            <label
-              ><input
-                id="outdoor"
-                type="radio"
-                name="indoor-outdoor"
-                value="outdoor"
-              />
-              Outdoor</label
-            >
-          </fieldset>
-          <fieldset>
-            <legend>What's your cat's personality?</legend>
-            <label for="loving"
-              ><input
-                id="loving"
-                type="checkbox"
-                name="personality"
-                value="loving"
-                checked=""
-              />
-              Loving</label
-            >
-            <label for="lazy"
-              ><input
-                id="lazy"
-                type="checkbox"
-                name="personality"
-                value="lazy"
-              />
-              Lazy</label
-            >
-            <label for="energetic"
-              ><input
-                id="energetic"
-                type="checkbox"
-                name="personality"
-                value="energetic"
-              />
-              Energetic</label
-            >
-          </fieldset>
-          <input
-            type="text"
-            name="catphotourl"
-            placeholder="cat photo URL"
-            required=""
-          />
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>
-        No Copyright -
-        <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
-    </footer>
-  </body>
-</html>
+<head>
+  <title>InstaGatos</title>
+</head>
+
+<body>
+  <h1>InstaGatos</h1>
+  <main>
+    <section>
+      <h2>Fotos de Gatos</h2>
+      <!-- TAREA: Agregar enlace a fotos de gatos. -->
+      <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+      <a href="https://freecatphotoapp.com">
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+          alt="Un lindo gatito acostado boca arriba">
+      </a>
+    </section>
+    <section>
+      <h2>Listas de Gatos</h2>
+      <h3>Cosas que los gatos aman:</h3>
+
+      <ul>
+        <li>Siesta</li>
+        <li>Punteros Laser</li>
+        <li>Lasaña</li>
+      </ul>
+
+      <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="Una rebanada de lasaña">
+        <figcaption>Los gatos <em>aman</em> la lasaña</figcaption>
+      </figure>
+      <h3>Top 3 de cosas que los gatos odian:</h3>
+      <ol>
+        <li>Tratamiento antipulgas</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+      </ol>
+      <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+          alt="Cinco gatos mirando alrededor de un campo">
+        <figcaption>Los gatos <strong>odian</strong> otros gatos</figcaption>
+      </figure>
+    </section>
+    <section>
+      <h2>Formulario de gato</h2>
+      <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+          <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
+          <label><input name="interior-exterior" value="interior" type="radio" id="interior" checked>
+            Interior</label>
+          <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
+            Exterior</label>
+        </fieldset>
+        <fieldset>
+          <legend>¿Cómo es la personalidad de tu gato?</legend>
+          <input type="checkbox" name="personalidad" value="amoroso" id="amoroso" checked> <label
+            for="amoroso">Amoroso</label>
+          <input type="checkbox" name="personalidad" value="holgazan" id="holgazan"> <label
+            for="holgazan">Holgazan</label>
+          <input type="checkbox" name="personalidad" value="energetico" id="energetico"> <label
+            for="energetico">Energetico</label>
+        </fieldset>
+        <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+  <footer>
+    <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+  </footer>
+</body>
