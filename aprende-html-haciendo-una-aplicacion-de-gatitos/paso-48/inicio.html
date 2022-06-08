@@ -6,8 +6,9 @@
         <!-- Paso 48: Introducción
             Si seleccionas el botón radio Interior y envías el formulario,
             los datos para el botón están representados por sus atributos name y value.
-            Ya que los botones de radio actualmente no tienen atributo value,
-            los datos del formulario incluirán el valor interior-exterior=on, lo cual no es muy útil cuando tienes múltiples botones.
+            Ya que los en este momento los botones de radio no tienen atributo value,
+            los datos del formulario incluirán el valor interior-exterior=on, 
+            lo cual no es muy útil cuando tienes múltiples botones.
         -->
         <section>
             <h2>Fotos de Gatos</h2>
@@ -39,10 +40,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 48: 
-                Agrega el atributo value en ambos botones radio. 
-                Por convención, asigna el valor de este atributo exactamente igual al del atributo id.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -52,12 +49,16 @@
         <section>
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <label><input name="interior-exterior" type="radio"> Interior</label>
+                <!-- Paso 48: 
+                    Agrega el atributo value en ambos botones radio. 
+                    Por convención, asigna el valor de este atributo 
+                    exactamente igual al del atributo id.
+                -->
+                <label><input name="interior-exterior" type="radio" id="interior"> Interior</label>
                 <label><input name="interior-exterior" type="radio" id="exterior"> Exterior</label>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

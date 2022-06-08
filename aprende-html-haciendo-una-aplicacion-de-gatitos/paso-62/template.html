@@ -33,10 +33,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 62: 
-                Anida un elemento <p> con el texto No Copyright - freeCodeCamp.org dentro
-                del elemento <footer>
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -48,19 +44,23 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <fieldset>
                     <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior" checked>
-                        Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior" checked>
+                        Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>¿Cómo es la personalidad de tu gato?</legend>
-                    <input type="checkbox" name="personalidad" value="amoroso" id="amoroso" checked> <label
-                        for="amoroso">Amoroso</label>
-                    <input type="checkbox" name="personalidad" value="holgazan" id="holgazan"> <label
-                        for="holgazan">Holgazan</label>
-                    <input type="checkbox" name="personalidad" value="energetico" id="energetico"> <label
-                        for="energetico">Energetico</label>
+                    <input type="checkbox" name="personalidad" value="amoroso" id="amoroso" checked>
+                    <label for="amoroso">Amoroso</label>
+                    <input type="checkbox" name="personalidad" value="holgazan" id="holgazan">
+                    <label for="holgazan">Holgazan</label>
+                    <input type="checkbox" name="personalidad" value="energetico" id="energetico">
+                    <label for="energetico">Energetico</label>
                 </fieldset>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
@@ -68,5 +68,11 @@
         </section>
 
     </main>
-    <footer></footer>
+    <!-- Paso 62: 
+        Anida un elemento <p> con el texto 
+        No Copyright - freeCodeCamp.org dentro
+        del elemento <footer>
+    -->
+    <footer>
+    </footer>
 </body>

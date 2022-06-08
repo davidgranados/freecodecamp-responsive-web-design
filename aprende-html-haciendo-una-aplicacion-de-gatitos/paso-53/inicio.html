@@ -4,8 +4,9 @@
     <h1>InstaGatos</h1>
     <main>
         <!-- Paso 53: Introducción
-            Los formularios usualmente utilizan checkboxes para las preguntas que pueden tener más de una respuesta.
-            Por ejemplo, este es un elemento <checkbox> para la opción de tacos: <input type="checkbox"> tacos.
+            Los formularios usualmente utilizan checkboxes para las preguntas 
+            que pueden tener más de una respuesta. Por ejemplo, este es un elemento 
+            <checkbox> para la opción de tacos: <input type="checkbox"> tacos.
         -->
         <section>
             <h2>Fotos de Gatos</h2>
@@ -37,10 +38,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 53: 
-                Debajo del elemento <legend> que acabas de agregar, añade un elemento <input> con el atributo checkbox 
-                y dale la opción Amoroso.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -52,18 +49,25 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <fieldset>
                     <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior"> Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
-                <legend>¿Cómo es la personalidad de tu gato?</legend>
                 <fieldset>
-
+                    <!-- Paso 53: 
+                        Debajo del elemento <legend> que acabas de agregar, 
+                        añade un elemento <input> con el atributo checkbox 
+                        y dale la opción Amoroso.
+                    -->
+                    <legend>¿Cómo es la personalidad de tu gato?</legend>
                 </fieldset>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

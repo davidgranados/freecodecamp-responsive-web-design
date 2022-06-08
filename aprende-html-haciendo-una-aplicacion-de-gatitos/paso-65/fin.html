@@ -1,15 +1,18 @@
 <html>
-
+<!-- Paso 65: Introducción
+    El elemento <title> determina el contenido que va a mostrar 
+    el navegador en la  pestaña que corresponde a la página.
+-->
+<!-- Paso 65: 
+    Agrega el elemento <title> dentro del elemento <head>. 
+    Su contenido debe ser InstaGatos.
+-->
 <head>
     <title>InstaGatos</title>
 </head>
 
 <body>
     <h1>InstaGatos</h1>
-    <!-- Paso 65: Introducción
-        El elemento <title> determina el contenido que va a mostrar el navegador en la 
-        pestaña que corresponde a la página.
-    -->
     <main>
         <section>
             <h2>Fotos de Gatos</h2>
@@ -41,10 +44,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 65: 
-                Agrega el elemento <title> dentro del elemento <head>. 
-                Su contenido debe ser InstaGatos.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -56,25 +55,28 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <fieldset>
                     <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior" checked>
-                        Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior" checked>
+                        Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>¿Cómo es la personalidad de tu gato?</legend>
-                    <input type="checkbox" name="personalidad" value="amoroso" id="amoroso" checked> <label
-                        for="amoroso">Amoroso</label>
-                    <input type="checkbox" name="personalidad" value="holgazan" id="holgazan"> <label
-                        for="holgazan">Holgazan</label>
-                    <input type="checkbox" name="personalidad" value="energetico" id="energetico"> <label
-                        for="energetico">Energetico</label>
+                    <input type="checkbox" name="personalidad" value="amoroso" id="amoroso" checked>
+                    <label for="amoroso">Amoroso</label>
+                    <input type="checkbox" name="personalidad" value="holgazan" id="holgazan">
+                    <label for="holgazan">Holgazan</label>
+                    <input type="checkbox" name="personalidad" value="energetico" id="energetico">
+                    <label for="energetico">Energetico</label>
                 </fieldset>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
     <footer>
         <p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>

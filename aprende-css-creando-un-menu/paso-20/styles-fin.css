@@ -1,0 +1,13 @@
+/*
+    El color brown que utilizamos hace difícil leer el texto de la página.
+    Cambia el color de fondo del elemento body a burlywood, para que tenga el
+    mismo color, pero se pueda leer mejor el texto.
+*/
+
+h1, h2, p {
+    text-align: center;
+}
+
+body {
+    background-color: burlywood;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <!-- Paso 37: Introducción
+        Comenzamos a obtener algunos resultados, pero sería mejor que el precio y sabor
+        estuvieran en la misma línea. 
+        Los elementos <p> son elementos en bloque, lo que significa que toman el ancho
+        completo de su elemento padre. 
+        Para ponerlos en la misma línea, necesitas aplicar algunos estilos a los
+        elementos <p>, para que se puedan comportar como elementos de línea.
+    -->
+    <head>
+        <title>Cafe Menu</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <!-- Paso 37:
+            Agrega un atributo class con el valor item al primer elemento <article>
+            debajo del título Café.
+        -->
+        <div class="menu">
+            <header>
+                <h1>CAMPER CAFE</h1>
+                <p>Est. 2020</p>
+            </header>
+            <main>
+                <section>
+                    <h2>Café</h2>
+                    <article>
+                        <p class="sabor">French Vanilla</p>
+                        <p class="precio">3.00</p>
+                    </article>
+                    <article>
+                        <p>Caramel Macchiato</p>
+                        <p>3.75</p>
+                    </article>
+                    <article>
+                        <p>Especia de Calabaza</p>
+                        <p>3.50</p>
+                    </article>
+                    <article>
+                        <p>Avellana</p>
+                        <p>4.00</p>
+                    </article>
+                    <article>
+                        <p>Moca</p>
+                        <p>4.50</p>
+                    </article>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

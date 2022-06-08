@@ -4,10 +4,11 @@
     <h1>InstaGatos</h1>
     <main>
         <!-- Paso 44: Introducción
-            Los elementos <label> son utilizados para ayudar asociar el texto de un <input> con el elemento en sí mismo
-            (especialmente cuando se utilizan tecnologías como lectores de pantalla).
-            Por ejemplo: <label><input type="radio"> gato</label> permite que haceindo click en la palabra gato, se seleccione 
-            el botón radio asociado a este elemento.
+            Los elementos <label> son utilizados para ayudar asociar el texto de un <input> 
+            con el elemento en sí mismo (especialmente cuando se utilizan tecnologías 
+            como lectores de pantalla). Por ejemplo: <label><input type="radio"> gato</label> 
+            permite que haceindo click en la palabra gato, se seleccione el botón radio 
+            asociado a este elemento.
         -->
         <section>
             <h2>Fotos de Gatos</h2>
@@ -39,9 +40,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 44: 
-                Anida tu botón radio dentro de un elemento <label>.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -51,11 +49,13 @@
         <section>
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <input type="radio" > Interior
+                <!-- Paso 44: 
+                    Anida tu botón radio dentro de un elemento <label>.
+                -->
+                <input type="radio"> Interior
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

@@ -33,9 +33,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 52: 
-                Añade un elemento <legend> con el texto ¿Cómo es la personalidad de tu gato? dentro del segundo elemento <fieldset>
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -47,18 +44,25 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <fieldset>
                     <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior"> Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
+                <!-- Paso 52: 
+                    Añade un elemento <legend> con el texto 
+                    ¿Cómo es la personalidad de tu gato? 
+                    dentro del segundo elemento <fieldset>
+                -->
                 <legend>¿Cómo es la personalidad de tu gato?</legend>
                 <fieldset>
-
                 </fieldset>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

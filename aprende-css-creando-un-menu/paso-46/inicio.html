@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cafe Menu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- Paso 46:
+        Si reduces el ancho de la página, puedes notar que en algún
+        momento parte del texto que está a la izquierda pasa a la 
+        siguiente línea. Esto se debe a que el ancho de los elementos
+        <p> del lado izquierdo solo pueden ocupar el 50% del espacio.
+        
+        Como sabes que los precios de la derecha tienen menos cantidad
+        de caracteres, cambia la clase sabor para que su ancho sea de
+        75% y el de la clase precios sea 25%.
+    -->
+    <div class="menu">
+        <header>
+            <h1>CAMPER CAFE</h1>
+            <p>Est. 2020</p>
+        </header>
+        <main>
+            <section>
+                <h2>Café</h2>
+                <article class="item">
+                    <p class="sabor">French Vanilla</p><p class="precio">3.00</p>
+                </article>
+                <article class="item">
+                    <p class="sabor">Caramel Macchiato</p><p class="precio">3.75</p>
+                </article>
+                <article class="item">
+                    <p class="sabor">Especia de Calabaza</p><p class="precio">3.50</p>
+                </article>
+                <article class="item">
+                    <p class="sabor">Avellana</p><p class="precio">4.00</p>
+                </article>
+                <article class="item">
+                    <p class="sabor">Moca</p><p class="precio">4.50</p>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

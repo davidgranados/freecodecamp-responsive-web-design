@@ -4,8 +4,10 @@
     <h1>InstaGatos</h1>
     <main>
         <!-- Paso 49: Introducción
-            El elemento <fieldset> es utilizado para agrupar elementos <input> y <label> de un formulario web relacionados entre sí.
-            Los elementos <fieldset> son elementos a nivel de bloque, lo que significa que estos aparecerán en una nueva línea.
+            El elemento <fieldset> es utilizado para agrupar elementos 
+            <input> y <label> de un formulario web relacionados entre sí.
+            Los elementos <fieldset> son elementos a nivel de bloque, 
+            lo que significa que estos aparecerán en una nueva línea.
         -->
         <section>
             <h2>Fotos de Gatos</h2>
@@ -37,9 +39,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 49: 
-                Anida los botones radio Interior y exterior dentro de un elemento <fieldset>, y no olvides indentar los botones radio.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -49,13 +48,20 @@
         <section>
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <label><input name="interior-exterior" value="interior" type="radio" id="interior"> Interior</label>
-                <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                    Exterior</label>
+                <!-- Paso 49: 
+                    Anida los botones radio Interior y exterior dentro de un elemento <fieldset>, 
+                    y no olvides indentar los botones radio.
+                -->
+                <label>
+                    <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                </label>
+                <label>
+                    <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                </label>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

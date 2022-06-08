@@ -4,8 +4,9 @@
     <h1>InstaGatos</h1>
     <main>
         <!-- Paso 45: Introducción
-            El atributo id es utilizando para identificar elementos HTML específicos.
-            Cada valor del atributo id debe ser único con respecto a los demás elementos dentro de la página.
+            El atributo id es utilizado para identificar elementos HTML específicos.
+            Cada valor del atributo id debe ser único con respecto 
+            a los demás elementos dentro de la página.
         -->
         <section>
             <h2>Fotos de Gatos</h2>
@@ -37,10 +38,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 45: 
-                Agrega el atributo id con el valor interior al botón de radio.
-                Cuando los elementos poseen multiples atributos, el orden de estos no afecta.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -50,11 +47,14 @@
         <section>
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <!-- Paso 45: 
+                    Agrega el atributo id con el valor interior al botón de radio.
+                    Cuando los elementos poseen multiples atributos, el orden de estos no afecta.
+                -->
                 <label><input type="radio" id="interior"> Interior</label>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

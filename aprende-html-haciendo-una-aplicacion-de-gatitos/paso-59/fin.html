@@ -3,10 +3,11 @@
 <body>
     <h1>InstaGatos</h1>
     <!-- Paso 59: Introducción
-        Al igual que los botones radio, los datos seleccionados en los checkbox de los
-        formularios son pares nombre/valor de los atributos. A pesar de que el atributo value
-        es opcional, es una buena práctica incluirlo en cualquier checkbox o radio button
-        presente en la página.
+        Al igual que los botones radio, los datos seleccionados 
+        en los checkbox de los formularios son pares nombre/valor 
+        de los atributos. A pesar de que el atributo value
+        es opcional, es una buena práctica incluirlo en cualquier 
+        checkbox o radio button presente en la página.
     -->
     <main>
         <section>
@@ -39,10 +40,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 59: 
-                Agrega el atributo value a cada checkbox. Por conveniencia, asigna a cada checkbox
-                el mismo valor del atributo id al atributo value.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -54,21 +51,31 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <fieldset>
                     <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior"> Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>¿Cómo es la personalidad de tu gato?</legend>
-                    <input type="checkbox" name="personalidad" value="amoroso" id="amoroso"> <label for="amoroso">Amoroso</label>
-                    <input type="checkbox" name="personalidad" value="holgazan" id="holgazan"> <label for="holgazan">Holgazan</label>
-                    <input type="checkbox" name="personalidad" value="energetico" id="energetico"> <label
-                        for="energetico">Energetico</label>
+                    <!-- Paso 59: 
+                        Agrega el atributo value a cada checkbox. 
+                        Por conveniencia, asigna a cada checkbox
+                        el mismo valor del atributo id al atributo value.
+                    -->
+                    <input type="checkbox" name="personalidad" value="amoroso" id="amoroso"> 
+                    <label for="amoroso">Amoroso</label>
+                    <input type="checkbox" name="personalidad" value="holgazan" id="holgazan"> 
+                    <label for="holgazan">Holgazan</label>
+                    <input type="checkbox" name="personalidad" value="energetico" id="energetico"> 
+                    <label for="energetico">Energetico</label>
                 </fieldset>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

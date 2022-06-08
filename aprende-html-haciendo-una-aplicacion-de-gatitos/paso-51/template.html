@@ -33,10 +33,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 51: 
-                Ahora, vas añadir algunos campos input en el formulario. 
-                Así que añade un nuevo elemento <fieldset> debajo del elemento <fieldset> actual.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -46,16 +42,24 @@
         <section>
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <!-- Paso 51: 
+                    Ahora, vas añadir algunos campos input en el formulario. 
+                    Así que añade un nuevo elemento <fieldset> debajo del 
+                    elemento <fieldset> actual.
+                -->
                 <fieldset>
                     <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior"> Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

@@ -33,15 +33,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 58: 
-                Añade un último checkbox debajo del que acabas de crear con el valor
-                de su id igual a energetico. El atributo name debe ser igual que el de los
-                checkbox anteriores.
-
-                Adicionalmente, añade un elemento <label> a la derecha del nuevo checkbox
-                con el texto Energetico. Asegurate de asociarlo al nuevo elemento checkbox
-                que acabas de crear.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -53,12 +44,25 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <fieldset>
                     <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior"> Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
                 <fieldset>
                     <legend>¿Cómo es la personalidad de tu gato?</legend>
+                    <!-- Paso 58: 
+                        Añade un último checkbox debajo del que acabas de crear con 
+                        el valor de su id igual a energetico. 
+                        El atributo name debe ser igual que el de los checkbox anteriores.
+
+                        Adicionalmente, añade un elemento <label> a la derecha del nuevo 
+                        checkbox con el texto Energetico. Asegurate de asociarlo al nuevo 
+                        elemento checkbox que acabas de crear.
+                    -->
                     <input type="checkbox" name="personalidad" id="amoroso"> <label for="amoroso">Amoroso</label>
                     <input type="checkbox" name="personalidad" id="holgazan"> <label for="holgazan">Holgazan</label>
                 </fieldset>
@@ -66,6 +70,5 @@
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

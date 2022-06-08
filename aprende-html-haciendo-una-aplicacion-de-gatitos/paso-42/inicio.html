@@ -4,12 +4,14 @@
     <h1>InstaGatos</h1>
     <main>
         <!-- Paso 42: Introducción
-            Aunque añadiste el elemento <button> debejo del <input>, este aparece justo al lado al mostrarse en la página web.
-            Esto se debe a que ambos elementos son elementos que se representan en una línea (inline), estos elementos no
+            Aunque añadiste el elemento <button> debajo del <input>, este aparece justo 
+            al lado al mostrarse en la página web. Esto se debe a que ambos elementos son 
+            elementos que se representan en una línea (inline), estos elementos no
             aparecen en una línea nueva.
 
-            Anterioremente aprendiste que por defecto el elemento <button> de un formulario hace el envío del contenido de este elemento,
-            pero puedes añadirlo explícitamente cone l atributo type y el valor submit para hacerlo aún más claro.
+            Anterioremente aprendiste que por defecto el elemento <button> de un formulario 
+            hace el envío del contenido de este elemento, pero puedes añadirlo explícitamente 
+            con el atributo type y el valor submit para hacerlo aún más claro.
         -->
         <section>
             <h2>Fotos de Gatos</h2>
@@ -41,9 +43,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 42: 
-                Añade el atributo type al elemento <button> para especificar que este elemento es para enviar el formulario.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -54,9 +53,11 @@
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
+                <!-- Paso 42: 
+                    Añade el atributo type al elemento <button> para especificar que este elemento es para enviar el formulario.
+                -->
                 <button>Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

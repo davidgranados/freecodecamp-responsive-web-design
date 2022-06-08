@@ -4,7 +4,11 @@
     <h1>InstaGatos</h1>
     <main>
         <!-- Paso 41: Introducción
-            Utiliza el elemento <button> para crear un botón clickeable.
+            Una parte importante de los formularios son los bótones
+            con la ayuda de los botónes podemos permitirle al usuario 
+            decidir cuando enviar un formulario una vez que lo ha completado
+
+            Para crear un bóton Utiliza el elemento <button> para crear un botón clickeable.
             Por ejemplo: <button>Haz click aquí</button> crea un botón con el texto 'Haz click aquí'.
         -->
         <section>
@@ -37,11 +41,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 41: 
-                Añade un elemento <button> debajo del elemento <input> con el texto 'Enviar'.
-                El comportamiento por defecto al hacer click a un botón de formulario sin ningún atributo, 
-                es enviar el formulario a la dirección especificada en el atributo action del elemento <form>.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -51,10 +50,16 @@
         <section>
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <!-- Paso 41: 
+                    Añade un elemento <button> debajo del elemento <input> 
+                    con el texto 'Enviar'. El comportamiento por defecto al hacer 
+                    click a un botón de formulario sin ningún atributo, 
+                    es enviar el formulario a la dirección especificada en 
+                    el atributo action del elemento <form>.
+                -->
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button>Enviar</button>
             </form>
         </section>
-
     </main>
 </body>

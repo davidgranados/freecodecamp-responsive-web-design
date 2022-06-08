@@ -4,8 +4,9 @@
     <h1>InstaGatos</h1>
     <main>
         <!-- Paso 50: Introducción
-            El elemento <legend> actúa como una descripción para el contenido dentro de un elemento <fieldset>.
-            Esto le da al usuario el contexto sobre qué deberían ingresar en esa parte del formulario.
+            El elemento <legend> actúa como una descripción para el 
+            contenido dentro de un elemento <fieldset>. Esto le da al usuario 
+            el contexto sobre qué deberían ingresar en esa parte del formulario.
         -->
         <section>
             <h2>Fotos de Gatos</h2>
@@ -37,9 +38,6 @@
                 <li>Truenos</li>
                 <li>Otros gatos</li>
             </ol>
-            <!-- Paso 50: 
-                Agrega un elemento <legend> con el texto ¿A tu gato le gusta estar dentro o fuera de casa? sobre ambos botones radio.
-            -->
             <figure>
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
                     alt="Cinco gatos mirando alrededor de un campo">
@@ -49,15 +47,23 @@
         <section>
             <h2>Formulario de gato</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <!-- Paso 50: 
+                    Agrega un elemento <legend> con el texto 
+                    ¿A tu gato le gusta estar dentro o fuera de casa? 
+                    sobre ambos botones radio.
+                -->
                 <fieldset>
-                    <label><input name="interior-exterior" value="interior" type="radio" id="interior"> Interior</label>
-                    <label><input name="interior-exterior" value="exterior" type="radio" id="exterior">
-                        Exterior</label>
+                    <label>
+                        <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                    </label>
+                    <label>
+                        <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                        Exterior
+                    </label>
                 </fieldset>
                 <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
                 <button type="submit">Enviar</button>
             </form>
         </section>
-
     </main>
 </body>
