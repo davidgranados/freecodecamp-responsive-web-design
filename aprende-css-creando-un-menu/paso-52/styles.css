@@ -13,7 +13,7 @@ body {
     margin-right: auto;
 }
 
-.sabor {
+.sabor, .postre {
     text-align: left;
     width: 75%;
 }

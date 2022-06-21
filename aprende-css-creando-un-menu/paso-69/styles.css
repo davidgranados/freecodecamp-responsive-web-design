@@ -32,8 +32,7 @@ hr {
     max-width: 500px;
 }
 
-.sabor,
-.postre {
+.sabor, .postre {
     text-align: left;
     width: 75%;
 }
