@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.uno {
+    background-color: red;
+}
+
+.dos {
+    background-color: green;
+}
+
+.tres {
+    background-color: blue;
+}
+
+.contenedor {
+    background-color: rgb(0,0,0);
+}

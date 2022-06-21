@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Paso 88:
+    Observa que las esquinas de la sombra son puntiagudas.
+    Esto se debe a que hay un valor opcional para la
+    propiedad box-shadow, el valor blurRadius.
+
+    Su sintaxis es la siguiente:
+
+    box-shadow: ejeX ejeY blurRadius color;
+
+    Si el valor del blurRadius no está incluido, por defecto
+    se le asigna 0 y esto produce esquinas puntiagudas.
+    Mientras más alto sea el valor del blurRadius, mayor será
+    el efecto de difuminación.
+
+    Para el selector de clase .verde, agrega la propiedad
+    box-shadow con los valores 5px para el eje X, 5px para el
+    eje Y, 5px para el blurRaidus y green para el color.
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Marcadores de Colores</title>
+    </head>
+    <body>
+        <h1>Marcadores de Colores con CSS</h1>
+        <div class="contenedor">
+            <div class="marcador rojo">
+                <div class="cap"></div>
+                <div class="etiqueta"></div>
+            </div>
+            <div class="marcador verde">
+                <div class="cap"></div>
+                <div class="etiqueta"></div>
+            </div>
+            <div class="marcador azul">
+                <div class="cap"></div>
+                <div class="etiqueta"></div>
+            </div>
+        </div>
+    </body>
+</html>
