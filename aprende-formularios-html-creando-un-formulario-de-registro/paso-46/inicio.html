@@ -1,0 +1,51 @@
+<!-- Paso 46:
+    Si observas detalladamente, te darás cuenta que los elementos de
+    clase inline están demasiado altos en las lineas que ocupan.
+
+    Para modificar esto, asigna el valor middle a su propiedad
+    vertical-align.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <form action="https://register-demo.freecodecamp.org">
+            <fieldset>
+                <label>Ingresa tu Nombre: <input type="text" required name="nombre"></label>
+                <label>Ingresa tu Apellido: <input type="text" required name="apellido"></label>
+                <label>Ingresa tu E-mail: <input type="email" required name="correo"></label>
+                <label>Crea una Nueva Contraseña: <input type="password" name="contrasena" required
+                        pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+            <fieldset>
+                <label><input class="inline" type="radio"> Cuenta Personal</label>
+                <label><input class="inline" type="radio"> Cuenta Empresarial</label>
+                <label><input class="inline" type="checkbox" required name="terminos"> He leido y acepto los <a
+                        href="https://www.freecodecamp.org/news/terms-of-service/">terminos y condiciones</a></label>
+            </fieldset>
+            <fieldset>
+                <label>Subir una foto de perfil: <input type="file" name="fotoPerfil"></label>
+                <label>Ingresa tu edad (años): <input type="number" min="13" max="120" name="edad"></label>
+                <label>¿Dónde escuchaste sobre nosotros?
+                    <select name="referencia">
+                        <option value="">(selecciona una opción)</option>
+                        <option value="1">Noticias</option>
+                        <option value="2">Canal de YouTube/option>
+                        <option value="3">Foros</option>
+                        <option value="4">Otros</option>
+                    </select>
+                </label>
+                <label>Escribe una bio:
+                    <textarea rows="3" cols="30" placeholder="Me gusta programar en la playa..." name="bio"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="" Enviar>
+        </form>
+    </body>
+</html>
