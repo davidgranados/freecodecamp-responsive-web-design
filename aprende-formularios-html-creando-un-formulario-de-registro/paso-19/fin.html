@@ -1,0 +1,33 @@
+<!-- Paso 19:
+    Ciertos valores del atributo type vienen con validación
+    del formulario pre-construida. Por ejemplo, type="email"
+    requiere que el valor sea una dirección de correo válida.
+
+    Agrega una validación personalizada al elemento <input> 
+    para la contraseña, agregando el atributo minlength con el
+    valor 8. Haciendo esto, prevenimos que el ingreso de una
+    contraseña con menos de 8 caracteres sea enviada en el
+    formulario.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <form action="https://register-demo.freecodecamp.org">
+            <fieldset>
+                <label>Ingresa tu Nombre: <input type="text" required></label>
+                <label>Ingresa tu Apellido: <input type="text" required></label>
+                <label>Ingresa tu E-mail: <input type="email" required></label>
+                <label>Crea una Nueva Contraseña: <input type="password" required minlength="8"></label>
+            </fieldset>
+            <fieldset></fieldset>
+            <fieldset></fieldset>
+            <input type="submit" value="" Enviar>
+        </form>
+    </body>
+</html>

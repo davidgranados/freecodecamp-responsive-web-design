@@ -1,0 +1,31 @@
+<!-- Paso 21:
+    Vamos ahora a la siguiente sección del formulario de registro.
+    En esta sección preguntaremos el tipo de cuenta que el usuario
+    está creando y confirmaremos que el usuario ha leido los términos
+    y condiciones.
+
+    Comienza creando tres elementos <label> en el segundo elemento
+    <fieldset>
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <form action="https://register-demo.freecodecamp.org">
+            <fieldset>
+                <label>Ingresa tu Nombre: <input type="text" required></label>
+                <label>Ingresa tu Apellido: <input type="text" required></label>
+                <label>Ingresa tu E-mail: <input type="email" required></label>
+                <label>Crea una Nueva Contraseña: <input type="password" required pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+            <fieldset></fieldset>
+            <fieldset></fieldset>
+            <input type="submit" value="" Enviar>
+        </form>
+    </body>
+</html>

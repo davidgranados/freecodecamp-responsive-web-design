@@ -1,0 +1,33 @@
+<!-- Paso 23:
+    Para los términos y condiciones, agrega un elemento <input>
+    con el atributo type igual a checkbox en el tercer elemento
+    <label>. Además, como no queremos que los usuarios se
+    registren sin haber leído los términos y condiciones, haz
+    este campo requerido.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <form action="https://register-demo.freecodecamp.org">
+            <fieldset>
+                <label>Ingresa tu Nombre: <input type="text" required></label>
+                <label>Ingresa tu Apellido: <input type="text" required></label>
+                <label>Ingresa tu E-mail: <input type="email" required></label>
+                <label>Crea una Nueva Contraseña: <input type="password" required pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+            <fieldset>
+                <label><input type="radio"></label>
+                <label><input type="radio"></label>
+                <label></label>
+            </fieldset>
+            <fieldset></fieldset>
+            <input type="submit" value="" Enviar>
+        </form>
+    </body>
+</html>

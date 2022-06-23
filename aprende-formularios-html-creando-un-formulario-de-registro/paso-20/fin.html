@@ -1,0 +1,36 @@
+<!-- Paso 20:
+    Con el atributo type="password" puedes utilizar el atributo
+    pattern para definir una expresión regular con la cual la
+    contraseña debe coincidir para ser válida.
+
+    Agrega el atributo pattern al elemento <input> para la
+    contraseña, para que esta coincida con el patrón:
+    [a-z0-5]{8,}
+
+    Este patrón es en realidad una expresión regular, la cual
+    hace coincidir con ocho o más caracteres en minúscula o los
+    dígitos 0 al 5. Luego, elimina el atributo minlength y
+    pruébalo
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <form action="https://register-demo.freecodecamp.org">
+            <fieldset>
+                <label>Ingresa tu Nombre: <input type="text" required></label>
+                <label>Ingresa tu Apellido: <input type="text" required></label>
+                <label>Ingresa tu E-mail: <input type="email" required></label>
+                <label>Crea una Nueva Contraseña: <input type="password" required pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+            <fieldset></fieldset>
+            <fieldset></fieldset>
+            <input type="submit" value="" Enviar>
+        </form>
+    </body>
+</html>
