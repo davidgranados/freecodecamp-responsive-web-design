@@ -38,12 +38,12 @@ h1 {
     border-left: 10px double rgba(0, 0, 0, .75);
 }
 
-.cap {
+.tope {
     width: 60px;
     height: 25px;
 }
 
-.cap,
+.tope,
 .etiqueta {
     display: inline-block;
 }

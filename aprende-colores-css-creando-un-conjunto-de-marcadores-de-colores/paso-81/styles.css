@@ -37,12 +37,12 @@ h1 {
     border-left-style: solid;
 }
 
-.cap {
+.tope {
     width: 60px;
     height: 25px;
 }
 
-.cap,
+.tope,
 .etiqueta {
     display: inline-block;
 }
