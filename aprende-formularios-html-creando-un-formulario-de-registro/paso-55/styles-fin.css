@@ -26,9 +26,13 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }
 
 input,
@@ -62,6 +66,15 @@ input[type="submit"] {
     background-color: #3b3b4f;
     border-color: white;
 }
+
+/*
+    Paso 55:
+    La mayoría de los navegadores inyectan sus propias propiedades y valores CSS por defecto para diferentes elementos. 
+    Si te fijas bien, podrás darte cuenta que el elemento <input>con el tipo file es más pequeño que los elementos <input> 
+    de tipo texto. Por defecto, el padding de 1px 2px es el que se le asigna a los elementos <input> en los cuales puedes 
+    ingresar valores desde teclado. Utilizando otro selector de atributo, dale estilos al elemento <input> con el tipo file 
+    para que tenga el mismo padding que los otros elementos <input>.
+*/
 
 input[type="file"] {
     padding: 1px 2px;

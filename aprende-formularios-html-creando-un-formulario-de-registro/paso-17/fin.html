@@ -1,13 +1,3 @@
-<!-- Paso 17:
-    El primer elemento <input> que tenga el tipo submit será
-    asignado automáticamente para enviar la información de su
-    elemento <form> ancestro inmediato.
-
-    Para manejar el envío del formulario, luego del último
-    elemento <fieldset>, agrega un elemento <input> con el
-    atributo tipo igual a submit y el atributo value igual
-    a Enviar.
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,7 +16,17 @@
             </fieldset>
             <fieldset></fieldset>
             <fieldset></fieldset>
-            <input type="submit" value=""Enviar>
+            <!-- Paso 17:
+                El primer elemento <input> que tenga el tipo submit será
+                asignado automáticamente para enviar la información de su
+                elemento <form> ancestro inmediato.
+            
+                Para manejar el envío del formulario, luego del último
+                elemento <fieldset>, agrega un elemento <input> con el
+                atributo tipo igual a submit y el atributo value igual
+                a Enviar.
+            -->
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>

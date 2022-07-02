@@ -25,7 +25,18 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
 }
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+
+/*
+    Paso 42: 
+    Selecciona todos los elementos <input>, <textarea>y <select>y hazlos ocupar el ancho máximo de 
+    sus elementos padre. Además, agrega la propiedad margin con el valor 10px en la parte superior 
+    de los elementos seleccionados. Asigna el valor 0 al resto de los márgenes.
+*/

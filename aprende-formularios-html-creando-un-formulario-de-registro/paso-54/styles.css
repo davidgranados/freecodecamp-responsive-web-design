@@ -26,9 +26,13 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }
 
 input,
@@ -51,6 +55,13 @@ textarea {
     border: 1px solid #0a0a23;
     color: #fff;
 }
+
+/*
+    Paso 54:
+    Por último, para el botón de envío, quieres que esté separado del elemento <fieldset> que se encuentra sobre él,
+    y ajustar su ancho para que nunca esté por debajo de 300px. Cambia la propiedad margin para que tenga el valor 
+    1em en la parte superior e inferior y asigna el ancho como se indicó en el texto anterior.
+*/
 
 input[type="submit"] {
     display: block;

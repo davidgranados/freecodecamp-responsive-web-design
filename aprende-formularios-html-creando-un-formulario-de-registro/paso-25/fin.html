@@ -1,13 +1,3 @@
-<!-- Paso 25:
-    Solo quieres que se pueda seleccionar una opción del 
-    botón radio a la vez. Sin embargo, el formulario no sabe
-    que estos botones radio están relacionados.
-
-    Para relaciona estos elementos, dales el mismo valor a su
-    atributo name, este valor será tipo-cuenta. Ahora, no es
-    posible que se puedan seleccionar ambos botones radio al
-    mismo tiempo.
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,12 +15,22 @@
                 <label>Crea una Nueva Contraseña: <input type="password" required pattern="[a-z0-5]{8,}"></label>
             </fieldset>
             <fieldset>
+                <!-- Paso 25:
+                    Solo quieres que se pueda seleccionar una opción del 
+                    botón radio a la vez. Sin embargo, el formulario no sabe
+                    que estos botones radio están relacionados.
+                
+                    Para relaciona estos elementos, dales el mismo valor a su
+                    atributo name, este valor será tipo-cuenta. Ahora, no es
+                    posible que se puedan seleccionar ambos botones radio al
+                    mismo tiempo.
+                -->
                 <label><input type="radio" name="tipo-cuenta"> Cuenta Personal</label>
                 <label><input type="radio" name="tipo-cuenta"> Cuenta Empresarial</label>
                 <label><input type="checkbox" required> He leido y acepto los terminos y condiciones</label>
             </fieldset>
             <fieldset></fieldset>
-            <input type="submit" value="" Enviar>
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>

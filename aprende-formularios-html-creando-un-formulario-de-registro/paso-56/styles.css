@@ -19,6 +19,13 @@ p {
     text-align: center;
 }
 
+/*
+    Paso 56:
+    Hablando de padding, el botón de envío que está al fondo de nuestro elemento <form> se encuentra totalmente 
+    sobre el borde inferior de su elemento padre. 
+    Agrega el valor 2em a la propiedad padding del elemento <form> solo para la parte inferior.
+*/
+
 form {
     margin: 0 auto;
     min-width: 300px;
@@ -26,9 +33,13 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }
 
 input,

@@ -24,3 +24,10 @@ form {
     max-width: 500px;
     width: 60vw;
 }
+
+/*
+    Paso 40: Durante el desarrollo es útil ver los bordes por defecto del elemento <fieldset>. 
+    Sin embargo, hacen que el contenido parezca demasiado separado. 
+    Elimina los bordes y agrega el valor 2rem a la propiedad padding solo en la parte superior e inferior 
+    de cada elemento <fieldset>. Asegurate de eliminar el padding de los costados.
+*/

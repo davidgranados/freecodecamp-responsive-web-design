@@ -13,7 +13,8 @@ label {
     margin: 0.5rem 0;
 }
 
-h1, p {
+h1,
+p {
     margin: 1em auto;
     text-align: center;
 }
@@ -25,12 +26,18 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
 }
 
-input, select, textarea {
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+
+input,
+select,
+textarea {
     width: 100%;
     margin: 10px 0 0;
 }

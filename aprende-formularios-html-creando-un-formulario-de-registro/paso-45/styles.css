@@ -25,17 +25,24 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
 }
 
-input,
-select,
-textarea {
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+
+input, select, textarea {
     width: 100%;
     margin: 10px 0 0;
 }
+
+/*
+    Paso 45: Agrega algo de espacio entre los elementos de la clase inline y el texto de los elementos <label>,
+    dándole un margen derecho de 0.5em. Además, asigna el resto de sus márgenes a 0.
+*/
 
 .inline {
     width: unset;

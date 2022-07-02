@@ -26,7 +26,16 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+/*
+    Paso 41: Para darle a los elementos <fieldset>un poco de separación,
+    selecciona todos excepto el último elemento y dales un valor 3px solid #3b3b4f a su propiedad border-bottom.
+*/
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }

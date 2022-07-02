@@ -44,6 +44,13 @@ textarea {
     vertical-align: middle;
 }
 
+/*
+    Paso 48: 
+    De momento, si escribes en los elementos <input> y <textarea> notarás que no es posible leer el texto. 
+    Además, la altura de la fuente es muy pequeña para facilitar su uso. Modifica esto asignando el color 
+    a #ffffff, y asignando 2em a su propiedad min-height.
+*/
+
 input,
 textarea {
     background-color: #0a0a23;

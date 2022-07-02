@@ -1,14 +1,3 @@
-<!-- Paso 32:
-    Enviar el formulario con una opción seleccionada en realidad no
-    proporcionará ningún valor útil al servidor. Como tal, cada 
-    elemento <option> necesita que se le asigne un atributo value.
-    Sin el cual, el texto que contiene el elemento es lo que será
-    enviado al servidor.
-
-    Dale al primer elemento <option> el atributo value igual a "" y
-    a los siguientes elementos el value del 1 al 4, respectivamente.
--->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -36,6 +25,10 @@
                 <label>Ingresa tu edad (años): <input type="number" min="13" max="120"></label>
                 <label>¿Dónde escuchaste sobre nosotros?
                     <select>
+                        <!-- Paso 32:
+                            Dale al primer elemento <option> el atributo value igual a "" y
+                            a los siguientes elementos el value del 1 al 4, respectivamente.
+                        -->
                         <option>(selecciona una opción)</option>
                         <option>Noticias</option>
                         <option>Canal de YouTube/option>
@@ -44,7 +37,7 @@
                     </select>
                 </label>
             </fieldset>
-            <input type="submit" value="" Enviar>
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>

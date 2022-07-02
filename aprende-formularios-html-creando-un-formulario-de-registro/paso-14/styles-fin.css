@@ -6,6 +6,14 @@ body {
     color: #f5f6f7;
 }
 
+/*
+    Paso 14: Como los elementos <label>son elementos inline por defecto,
+    aparecen en la misma línea como si fuesen sus propias etiquetas. 
+    Para hacer que aparezcan en líneas separadas, agrega la propiedad display 
+    con el valor block para el elemento <label>y agrega también un margen 
+    de 0.5rem 0 para separarlos unos de otros.
+*/
+
 label {
     display: block;
     margin: 0.5rem 0;

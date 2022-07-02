@@ -1,3 +1,8 @@
+/*
+    Paso 37: El documento HTML para nuestro formulario está listo. Ahora,
+    puedes darle un poco más de estilo. Comienza cambiando la fuente a Tahoma,
+    y el tamaño de la fuente a 16px en el elemento <body>
+*/
 body {
     width: 100%;
     height: 100vh;

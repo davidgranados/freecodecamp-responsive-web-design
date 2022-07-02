@@ -44,6 +44,12 @@ textarea {
     vertical-align: middle;
 }
 
+/*
+    Paso 47: Para hacer que los elementos <input>y <textarea>se combinen con el tema de fondo,
+    asigna el valor #0a0a23 a sus propiedades background-color. Luego,
+    dales un borde con propiedades 1px solid y del mismo color antes mencionado.
+*/
+
 input, textarea {
     background-color: #0a0a23;
     border: 1px solid #0a0a23;

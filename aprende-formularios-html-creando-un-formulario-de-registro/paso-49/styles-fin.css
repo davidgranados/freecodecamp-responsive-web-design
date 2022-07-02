@@ -51,3 +51,11 @@ textarea {
     border: 1px solid #0a0a23;
     color: #fff;
 }
+
+/*
+    Paso 49: 
+    Queremos que los elementos <select> permanezcan con su fondo blanco, pero ahora no están recibiendo 
+    el valor de la propiedad min-height que asignamos a los elementos <input>y <textarea>. 
+    Mueve la pripiedad min-height y su valor, para que los tres tipos de elementos tengan el mismo valor 
+    en esta propiedad y el elemento <select> siga teniendo su fondo blanco.
+*/

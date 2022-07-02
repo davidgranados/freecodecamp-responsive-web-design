@@ -26,9 +26,13 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }
 
 input,
@@ -51,6 +55,13 @@ textarea {
     border: 1px solid #0a0a23;
     color: #fff;
 }
+
+/*
+    Paso 52: 
+    Para hacer que el botón se vea alineado con el resto del formulario,
+    dale el mismo valor a su propiedad height (2em).
+    Además, incrementa el tamaño de su fuente a 1.1rem.
+*/
 
 input[type="submit"] {
     display: block;

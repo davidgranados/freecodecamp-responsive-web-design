@@ -10,8 +10,8 @@ h1 {
 
 .rojo {
     background: linear-gradient(rgb(255, 74, 14),
-            rgb(245, 62, 113),
-            rgb(162, 27, 27));
+                                rgb(245, 62, 113),
+                                rgb(162, 27, 27));
 }
 
 .verde {
@@ -19,9 +19,9 @@ h1 {
 }
 
 .azul {
-    background: linear-gradient(hsl(186, 76%, 16%),
-            hsl(223, 90%, 60%),
-            hsl(240, 56%, 42%));
+    background: linear-gradient(hsl(186, 76%, 16%), 
+                                hsl(223, 90%, 60%),
+                                hsl(240, 56%, 42%));
 }
 
 .contenedor {

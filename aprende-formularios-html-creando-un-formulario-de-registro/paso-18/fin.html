@@ -1,14 +1,3 @@
-<!-- Paso 18:
-    Hasta ahora, deberías ser capaz de enviar el formulario.
-    Sin embargo, podrás notar que no ocurre gran cosa.
-
-    Para hacer el formulario más interactivo, agrega el
-    atributo required a los elementos <input> del primer
-    <fieldset>.
-
-    Ahora, si intentas enviar el formulario sin llenar los
-    campos requeridos, verás un mensaje de error.
--->
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,6 +9,17 @@
         <p>Por favor, llena este formulario con la información requerida.</p>
         <form action="https://register-demo.freecodecamp.org">
             <fieldset>
+                <!-- Paso 18:
+                    Hasta ahora, deberías ser capaz de enviar el formulario.
+                    Sin embargo, podrás notar que no ocurre gran cosa.
+                
+                    Para hacer el formulario más interactivo, agrega el
+                    atributo required a los elementos <input> del primer
+                    <fieldset>.
+                
+                    Ahora, si intentas enviar el formulario sin llenar los
+                    campos requeridos, verás un mensaje de error.
+                -->
                 <label>Ingresa tu Nombre: <input type="text" required></label>
                 <label>Ingresa tu Apellido: <input type="text" required></label>
                 <label>Ingresa tu E-mail: <input type="email" required></label>
@@ -27,7 +27,7 @@
             </fieldset>
             <fieldset></fieldset>
             <fieldset></fieldset>
-            <input type="submit" value="" Enviar>
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>

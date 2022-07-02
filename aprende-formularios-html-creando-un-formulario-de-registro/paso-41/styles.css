@@ -13,7 +13,8 @@ label {
     margin: 0.5rem 0;
 }
 
-h1, p {
+h1,
+p {
     margin: 1em auto;
     text-align: center;
 }
@@ -29,3 +30,8 @@ fieldset {
     border: none;
     padding: 2rem 0;
 }
+
+/*
+    Paso 41: Para darle a los elementos <fieldset>un poco de separación,
+    selecciona todos excepto el último elemento y dales un valor 3px solid #3b3b4f a su propiedad border-bottom.
+*/

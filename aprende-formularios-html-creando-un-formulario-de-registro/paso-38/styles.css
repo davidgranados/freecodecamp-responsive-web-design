@@ -12,3 +12,8 @@ label {
     display: block;
     margin: 0.5rem 0;
 }
+
+/*
+    Paso 38: Centra los elementos <h1>y <p> dandole un valor 1em auto a su propiedad margin.
+    Luego, alínea su texto en el centro también.
+*/

@@ -37,6 +37,12 @@ textarea {
     margin: 10px 0 0;
 }
 
+/*
+    Paso 46: Si observas detalladamente, te darás cuenta que los elementos de clase inline 
+    están demasiado altos en las lineas que ocupan. Para modificar esto, asigna el valor middle 
+    a su propiedad vertical-align.
+*/
+
 .inline {
     width: unset;
     margin: 0 .5em 0 0;

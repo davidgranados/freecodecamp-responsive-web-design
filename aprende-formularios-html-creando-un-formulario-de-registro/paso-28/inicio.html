@@ -1,18 +1,3 @@
-<!-- Paso 28:
-    Agrega otro elemento <label> luego del primero, con el texto
-    Ingresa tu edad (años): . Luego, anida un elemento <input> con
-    el atributo type igual a number.
-
-    Como no queremos que los usuarios menores a 13 años se registren,
-    agrega el atributo min al elemento <input> con el valor de 13.
-    Además, podemos asumir que usuarios mayores a 120 años no se
-    registrarán; agrega el atributo maz con el valor de 120.
-
-    Ahora, si alguien intenta enviar el formulario con valores fuera
-    de este rango, recibiran una advertencia y el formulario no será
-    enviado. Prúebalo!
--->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -36,9 +21,23 @@
                         href="https://www.freecodecamp.org/news/terms-of-service/">terminos y condiciones</a></label>
             </fieldset>
             <fieldset>
+                <!-- Paso 28:
+                    Agrega otro elemento <label> luego del primero, con el texto
+                    Ingresa tu edad (años): . Luego, anida un elemento <input> con
+                    el atributo type igual a number.
+                
+                    Como no queremos que los usuarios menores a 13 años se registren,
+                    agrega el atributo min al elemento <input> con el valor de 13.
+                    Además, podemos asumir que usuarios mayores a 120 años no se
+                    registrarán; agrega el atributo maz con el valor de 120.
+                
+                    Ahora, si alguien intenta enviar el formulario con valores fuera
+                    de este rango, recibiran una advertencia y el formulario no será
+                    enviado. Prúebalo!
+                -->
                 <label>Subir una foto de perfil: <input type="file"></label>
             </fieldset>
-            <input type="submit" value="" Enviar>
+            <input type="submit" value="Enviar">
         </form>
     </body>
 </html>

@@ -25,12 +25,21 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }
 
 input, select, textarea {
     width: 100%;
     margin: 10px 0 0;
 }
+
+/*
+    Paso 44: Selecciona solo los elementos con la clase inline y dales un valor unset para su propiedad width. 
+    Esto eliminará cualquier regla previa que asignó valores a la propiedad width de los elementos <input>.
+*/

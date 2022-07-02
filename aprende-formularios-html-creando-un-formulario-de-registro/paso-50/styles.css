@@ -26,9 +26,13 @@ form {
     width: 60vw;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }
 
 input,
@@ -51,3 +55,12 @@ textarea {
     border: 1px solid #0a0a23;
     color: #fff;
 }
+
+/*  Paso 50:
+    Para darle estilo a un botón de envío, puedes utilizar un selector de atributo,
+    el cual seleccionará el elemento basado en el valor de dicho atributo. 
+    Acá está un ejemplo: input[name="password"] Con este selector, todos los elementos <input> 
+    que tengan un atributo name igual a password recibiran los estilos en las reglas que se apliquen.
+    Ahora, utiliza el selector de atributo para darle estilo al botón de envío,
+    asignando el valor block a su propiedad display y 60% a su propiedad width.
+*/

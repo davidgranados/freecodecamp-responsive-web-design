@@ -27,9 +27,13 @@ form {
     padding-bottom: 2em;
 }
 
-fieldset:not(:last-of-type) {
+fieldset {
     border: none;
     padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
 }
 
 input,
@@ -67,3 +71,9 @@ input[type="submit"] {
 input[type="file"] {
     padding: 1px 2px;
 }
+
+/*
+    Paso 57:
+    Y por último, cambia el color del texto para el enlace a los términos y condiciones por el valor hex #dfdfe2. 
+    ¡Bien hecho ! Has completado la parte final del proyecto de práctica Formulario de Registro.
+*/

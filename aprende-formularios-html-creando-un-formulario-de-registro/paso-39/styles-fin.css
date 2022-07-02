@@ -18,6 +18,12 @@ h1, p {
     text-align: center;
 }
 
+/*
+    Paso 39: Centra el elemento <form>dándole el valor 0 auto a su propiedad margin. Luego,
+    modifica su tamaño máximo a 500px en su propiedad width y un ancho mínimo de 300px. 
+    Dentro de ese rango, permite que tenga un ancho de 60vw.
+*/
+
 form {
     margin: 0 auto;
     min-width: 300px;
