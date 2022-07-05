@@ -1,0 +1,55 @@
+<!-- Paso 11: Introducción
+    El texto de un enlace debe colocarse entre las etiquetas de apertura 
+    y cierre de un elemento ancla <a>. Por ejemplo, 
+    <a href="https://www.freecodecamp.org">haga clic aquí para ir a freeCodeCamp.org</a> 
+    es un enlace con el texto haga clic aquí para ir a freeCodeCamp.org.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/a
+-->
+<!-- Paso 15: Introducción
+    Antes de añadir nuevo contenido vamos a utilizar el elemento <section>, 
+    para separar el contenido relacionado con fotos de gatos
+    de ese nuevo contenido que se añaderá más adelante.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/section
+-->
+<html>
+    <body>
+        <h1>InstaGatos</h1>
+        <!-- Paso 15:
+            Toma todos los elementos que se encuentran en el elemento <main> 
+            y anídalos en un elemento <section>.
+        -->
+        <section>
+            <main>
+                <h2>Fotos de Gatos</h2>
+                <!-- TAREA: Agregar enlace a fotos de gatos. -->
+                <!-- Paso 12:
+                    Convierte el texto 'fotos de gatos' ubicadas dentro del elemento <p> 
+                    en un enlace, reemplazando las palabras con el elemento de <a> 
+                    agregado anteriormente. El elemento <p> debería mostrar el mismo texto 
+                    en el navegador, pero el texto 'Fotos de gatos' ahora debería ser un 
+                    enlace. Solo debe mostrarse un enlace en la aplicación.
+                -->
+                <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+                <!-- Paso 11:
+                    Agrega el texto de anclaje 'fotos de gatos' al elemento de anclaje. 
+                    Esto se convertirá en el texto del enlace.
+                -->
+                <!-- Paso 13:
+                    Agrega un atributo target con el valor "_blank" a la etiqueta 
+                    de apertura del elemento <a>, para que el enlace se abra 
+                    en una nueva pestaña.
+                -->
+                <!-- Paso 14:
+                    Convierte la imagen en un enlace rodeándola con las etiquetas necesarias. 
+                    Utilice https://freecatphotoapp.com como el valor del atributo href de la etiqueta <a>.
+                -->
+                <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                    alt="Un lindo gatito acostado boca arriba"></a>
+            </main>
+        </section>
+    </body>
+</html>
