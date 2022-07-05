@@ -1,0 +1,100 @@
+<!-- Paso 53: Introducción
+    Los formularios usualmente utilizan checkboxes para las preguntas 
+    que pueden tener más de una respuesta. Por ejemplo, este es un elemento 
+    <checkbox> para la opción de tacos: <input type="checkbox"> tacos.
+    
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/input/checkbox
+-->
+<!-- Paso 55: Introducción
+    Otra manera es asociar el texto de un elemento <input> con el elemento en sí mismo.
+    Puedes anidar el texto dentro de un elemento <label> y añadir un atributo for 
+    con el mismo valor que el del atributo id del <input>.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/input
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/label
+        https://developer.mozilla.org/es/docs/Web/HTML/Attributes
+-->
+<html>
+    <body>
+        <h1>InstaGatos</h1>
+        <main>
+            <section>
+                <h2>Fotos de Gatos</h2>
+                <!-- TAREA: Agregar enlace a fotos de gatos. -->
+                <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+                <a href="https://freecatphotoapp.com">
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                        alt="Un lindo gatito acostado boca arriba">
+                </a>
+            </section>
+            <section>
+                <h2>Listas de Gatos</h2>
+                <h3>Cosas que los gatos aman:</h3>
+
+                <ul>
+                    <li>Siesta</li>
+                    <li>Punteros Laser</li>
+                    <li>Lasaña</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                        alt="Una rebanada de lasaña">
+                    <figcaption>Los gatos <em>aman</em> la lasaña</figcaption>
+                </figure>
+                <h3>Top 3 de cosas que los gatos odian:</h3>
+                <ol>
+                    <li>Tratamiento antipulgas</li>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                        alt="Cinco gatos mirando alrededor de un campo">
+                    <figcaption>Los gatos <strong>odian</strong> otros gatos</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Formulario de gato</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <!-- Paso 51: 
+                        Ahora, vas añadir algunos campos input en el formulario. 
+                        Así que añade un nuevo elemento <fieldset> debajo del 
+                        elemento <fieldset> actual.
+                    -->
+                    <!-- Paso 52: 
+                        Añade un elemento <legend> con el texto 
+                        ¿Cómo es la personalidad de tu gato? 
+                        dentro del segundo elemento <fieldset>
+                    -->
+                    <!-- Paso 53: 
+                        Debajo del elemento <legend> que acabas de agregar, 
+                        añade un elemento <input> con el atributo checkbox 
+                        y dale la opción Amoroso.
+                    -->
+                    <!-- Paso 54: 
+                        Agrega el atributo id con el valor amoroso al checkbox.
+                    -->
+                    <!-- Paso 55: 
+                        Asocia el texto Amoroso con el checkbox, anidando únicamente 
+                        el texto Amoroso en un elemento <label> y colocalo al lado 
+                        derecho del checkbox.
+                    -->
+                    <fieldset>
+                        <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
+                        <label>
+                            <input name="interior-exterior" value="interior" type="radio" id="interior"> Interior
+                        </label>
+                        <label>
+                            <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                            Exterior
+                        </label>
+                    </fieldset>
+                    <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
