@@ -1,0 +1,72 @@
+<!-- Paso 31: Introducción
+    El elemento <strong> se utiliza para indicar la importancia o urgencia del texto contenido en la etiqueta.
+-->
+<!-- Paso 35: Introducción
+    El atributio action indica a donde deben ser enviados los datos recibidos en el formulario.
+    Por ejemplo, el código <form action="/submit-url"></form> le indica al navegador que los datos del formulario
+    deben ser enviados a la ruta /submit-url.
+-->
+<html>
+    <body>
+        <h1>InstaGatos</h1>
+        <main>
+            <section>
+                <h2>Fotos de Gatos</h2>
+                <!-- TAREA: Agregar enlace a fotos de gatos. -->
+                <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+                <a href="https://freecatphotoapp.com">
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                        alt="Un lindo gatito acostado boca arriba">
+                </a>
+            </section>
+            <section>
+                <h2>Listas de Gatos</h2>
+                <h3>Cosas que los gatos aman:</h3>
+
+                <ul>
+                    <li>Siesta</li>
+                    <li>Punteros Laser</li>
+                    <li>Lasaña</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                        alt="Una rebanada de lasaña">
+                    <figcaption>Los gatos <em>aman</em> la lasaña</figcaption>
+                </figure>
+                <h3>Top 3 de cosas que los gatos odian:</h3>
+                <ol>
+                    <li>Tratamiento antipulgas</li>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                        alt="Cinco gatos mirando alrededor de un campo">
+                    <!-- Paso 31: 
+                            En el elemento <figcaption> que acabas de añador, 
+                            indica que 'odian' es de gran importancia 
+                            añadiendole la etiqueta <strong>.
+                        -->
+                    <figcaption>Los gatos odian otros gatos</figcaption>
+                </figure>
+            </section>
+            <!-- Paso 32: 
+                    Es momento de añadir una nueva sección. 
+                    Añade un tercer elemento <section> debajo del segundo elemento <section>.
+                -->
+            <!-- Paso 33: 
+                    Dentro del tercer elemento <section>, añade un elemento <h2> 
+                    con el texto: 'Formulario de gato'.
+                -->
+            <!-- Paso 34: 
+                    Ahora vas añadir un formulario web para obtener información por parte 
+                    del usuario.
+                    Luego del titulo 'Formulario de gato', añade un elemento <form>
+                -->
+            <!-- Paso 35: 
+                    Añade un atributo action con el valor 
+                    https://freecatphotoapp.com/submit-cat-photo al elemento <form>
+                -->
+        </main>
+    </body>
+</html>
