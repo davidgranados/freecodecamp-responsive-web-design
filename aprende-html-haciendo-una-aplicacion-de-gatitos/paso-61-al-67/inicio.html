@@ -1,0 +1,137 @@
+<!-- Paso 61 Referencias:
+    https://developer.mozilla.org/es/docs/Web/HTML/Element/footer
+-->
+<!-- Paso 64: Introducción
+    Observa que todos los elementos que has agregado a la 
+    página hasta ahora ha sido dentro del elemento <body>. 
+    Todo el contenido de la página que debe ser renderizado, 
+    se debe colocar dentro del elemento <body>. 
+    Sin embargo, otra información importante va dentro 
+    del elemento <head>.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/body
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/head
+-->
+<!-- Paso 65: Introducción
+    El elemento <title> determina el contenido que va a mostrar 
+    el navegador en la  pestaña que corresponde a la página.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/title
+-->
+<!-- Paso 66: Introducción
+    También puedes notar que todo el contenido de la página está anidado dentro del
+    elemento <html>. Todos los demás elementos son descendientes de este.
+    
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/html
+-->
+<!-- Paso 67: Introducción
+    Todas las páginas deben iniciar con la etiqueta <!DOCTYPE html>. 
+    Esta cadena de texto especial es conocida como declaración y se asegura de que
+    el navegador cumpla con con los estándares y especificaciones de la industria.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Glossary/Doctype
+-->
+
+<!-- Paso 67: 
+    Para completar este proyecto, agrega la declaración !DOCTYPE 
+    en la primera línea del código.
+-->
+
+<!-- Paso 66: 
+    Agrega el atributo lang con el valor es en la etiqueta de apertura <html> para
+    especificar que el idioma de la página es Español.
+-->
+<html>
+    <!-- Paso 64: 
+        Agrega un elemento <head> justo sobre el elemento <body>.
+    -->
+    <!-- Paso 65: 
+        Agrega el elemento <title> dentro del elemento <head>. 
+        Su contenido debe ser InstaGatos.
+    -->
+    <body>
+        <h1>InstaGatos</h1>
+        <main>
+            <section>
+                <h2>Fotos de Gatos</h2>
+                <!-- TAREA: Agregar enlace a fotos de gatos. -->
+                <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+                <a href="https://freecatphotoapp.com">
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                        alt="Un lindo gatito acostado boca arriba">
+                </a>
+            </section>
+            <section>
+                <h2>Listas de Gatos</h2>
+                <h3>Cosas que los gatos aman:</h3>
+
+                <ul>
+                    <li>Siesta</li>
+                    <li>Punteros Laser</li>
+                    <li>Lasaña</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                        alt="Una rebanada de lasaña">
+                    <figcaption>Los gatos <em>aman</em> la lasaña</figcaption>
+                </figure>
+                <h3>Top 3 de cosas que los gatos odian:</h3>
+                <ol>
+                    <li>Tratamiento antipulgas</li>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                        alt="Cinco gatos mirando alrededor de un campo">
+                    <figcaption>Los gatos <strong>odian</strong> otros gatos</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Formulario de gato</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <fieldset>
+                        <legend>¿A tu gato le gusta estar dentro o fuera de casa?</legend>
+                        <label>
+                            <input name="interior-exterior" value="interior" type="radio" id="interior" checked>
+                            Interior
+                        </label>
+                        <label>
+                            <input name="interior-exterior" value="exterior" type="radio" id="exterior">
+                            Exterior
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>¿Cómo es la personalidad de tu gato?</legend>
+                        <input type="checkbox" name="personalidad" value="amoroso" id="amoroso" checked>
+                        <label for="amoroso">Amoroso</label>
+                        <input type="checkbox" name="personalidad" value="holgazan" id="holgazan">
+                        <label for="holgazan">Holgazan</label>
+                        <input type="checkbox" name="personalidad" value="energetico" id="energetico">
+                        <label for="energetico">Energetico</label>
+                    </fieldset>
+                    <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <!-- Paso 61: 
+            Ahora vas agregar una sección de pie de página.
+            Luego del elemento <main>, agrega el elemento <footer>.
+        -->
+        <!-- Paso 62: 
+            Anida un elemento <p> con el texto 
+            No Copyright - freeCodeCamp.org dentro
+            del elemento <footer>
+        -->
+        <!-- Paso 63: 
+            Vuelve el texto freeCodeCamp.org un enlace encerrándolo 
+            en una etiqueta <a>. El atributo href debe tener el 
+            valor https://www.freecodecamp.org.
+        -->
+    </body>
+</html>
