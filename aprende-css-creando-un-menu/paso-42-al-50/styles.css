@@ -1,0 +1,41 @@
+h1, h2, p {
+    text-align: center;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Paso 42: 
+    Ahora, cambia de nuevo el ancho de los elementos sabor y precio a 50% de 
+    nuevo.
+*/
+/* Paso 46: 
+    Si reduces el ancho de la página, puedes notar que en algún momento parte 
+    del texto que está a la izquierda pasa a la siguiente línea. Esto se debe 
+    a que el ancho de los elementos <p> del lado izquierdo solo pueden ocupar 
+    el 50% del espacio. Como sabes que los precios de la derecha tienen menos 
+    cantidad de caracteres, cambia la clase sabor para que su ancho sea de 75% 
+    y el de la clase precios sea 25%.
+*/
+
+.sabor {
+    text-align: left;
+    width: 49%;
+}
+
+.precio {
+    text-align: right;
+    width: 49%;
+}
+
+.item p {
+    display: inline-block;
+}
