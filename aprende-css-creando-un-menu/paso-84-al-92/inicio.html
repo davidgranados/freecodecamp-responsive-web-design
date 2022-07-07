@@ -1,0 +1,104 @@
+<!-- Paso 85: Introducción
+    El texto del menú CAMPER CAFE tiene un espaciado diferente en la parte 
+    superior en comparación con el espacio de la dirección en la parte inferior 
+    del menú. Esto se debe a que el navegador está dando un margen superior
+    por defecto al elemento <h1>.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/CSS/margin
+-->
+<!-- Paso 87: Introducción
+    Ahora el espacio en la parte superior se ve bien. El espacio debajo de la 
+    dirección en la parte inferior del menú es un poco más grande que el espacio 
+    en la parte superior y el elemento <h1>.
+-->
+<!-- Paso 90: Introducción
+    La imagen que agregaste no está centrada horizontalmente al mismo nivel 
+    que el encabezado Cafe de arriba. Los elementos <img> son parecidos a un
+    elemento inline.
+-->
+<!-- Paso 92: Introducción
+    Seria bueno que el espaciado vertical entre los elementos <h2> y sus iconos 
+    asociados fuese más pequeño. Los elementos <h2> tienen un margen superior 
+    e inferior por defecto, así que podrías cambiar el margen inferior de los 
+    elementos <h2> por 0 u otro número.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cafe Menu</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="menu">
+            <header>
+                <h1>CAMPER CAFE</h1>
+                <p class="establecido">Est. 2020</p>
+            </header>
+            <hr>
+            <main>
+                <section>
+                    <!-- Paso 89:
+                        El menú se ve bien, pero además del fondo de granos de 
+                        café, todo lo demás es texto.
+                    
+                        Debajo del encabezado Cafe, agrega una imagen
+                        utilizando la URL 
+                        https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg
+                        Dale el atributo alt de icono de cafe.
+                    -->
+                    <h2>Café</h2>
+                    <article class="item">
+                        <p class="sabor">Vainilla Frances</p><p class="precio">3.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Macchiato Caramelo</p><p class="precio">3.75</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Especia de Calabaza</p><p class="precio">3.50</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Avellana</p><p class="precio">4.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Moca</p><p class="precio">4.50</p>
+                    </article>
+                </section>
+                <section>
+                    <!-- Paso 91:
+                        Agrega una última imagen debajo del encabezado Postres 
+                        utilizando la URL
+                        https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg
+                        Dale el valor al atributo alt de icono de pie.
+                    -->
+                    <h2>Postres</h2>
+                    <article class="item">
+                        <p class="postre">Dona</p><p class="precio">1.50</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Pie de Cereza</p><p class="precio">2.75</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Cheesecake</p><p class="precio">3.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Rol de Canela</p><p class="precio">2.50</p>
+                    </article>
+                </section>
+            </main>
+            <hr class="linea-inferior">
+            <footer>
+                <p>
+                    <a href="https://www.freecodecamp.org">Visita nuestro sitio web</a>
+                </p>
+                <!-- Paso 88:
+                    Ahora aplica la clase direccion al elemento <p> que contiene 
+                    la direccion.
+                -->
+                <p>123 Calle del Cafe</p>
+            </footer>
+        </div>
+    </body>
+</html>
