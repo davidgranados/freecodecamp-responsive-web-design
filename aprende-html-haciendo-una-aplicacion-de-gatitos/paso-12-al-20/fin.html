@@ -1,9 +1,11 @@
+<!-- Paso 15: Introducción
+    Antes de añadir nuevo contenido vamos a utilizar el elemento <section>, 
+    para separar el contenido relacionado con fotos de gatos
+    de ese nuevo contenido que se añadirá más adelante.
+-->
 <!-- Paso 18: Introducción
     Cuando se agrega un elemento de encabezado de rango inferior a la página 
     se da a entender que está comenzando una nueva subsección.
-
-    Referencias:
-        https://developer.mozilla.org/es/docs/Web/HTML/Element/heading_Elements
 -->
 <!-- Paso 20: Introducción
     Utiliza elementos <li> (de list item) para crear items en la lista.
@@ -13,19 +15,36 @@
         <li>leche</li>
         <li>queso</li>
     </ul>
-
-    Referencias:
-        https://developer.mozilla.org/es/docs/Web/HTML/Element/ul
-        https://developer.mozilla.org/es/docs/Web/HTML/Element/li
 -->
 <html>
     <body>
         <h1>InstaGatos</h1>
+        <!-- Paso 15:
+            Toma todos los elementos que se encuentran en el elemento <main> 
+            y anídalos en un elemento <section>.
+        -->
         <main>
             <section>
                 <h2>Fotos de Gatos</h2>
                 <!-- TAREA: Agregar enlace a fotos de gatos. -->
+                <!-- Paso 12:
+                    Convierte el texto 'fotos de gatos' ubicadas dentro del elemento <p> 
+                    en un enlace, reemplazando las palabras con el elemento de <a> 
+                    agregado anteriormente. El elemento <p> debería mostrar el mismo texto 
+                    en el navegador, pero el texto 'Fotos de gatos' ahora debería ser un 
+                    enlace. Solo debe mostrarse un enlace en la aplicación.
+                -->
                 <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+                <!-- Paso 13:
+                    Agrega un atributo target con el valor "_blank" a la etiqueta 
+                    de apertura del elemento <a>, para que el enlace se abra 
+                    en una nueva pestaña.
+                -->
+                <!-- Paso 14:
+                    Convierte la imagen en un enlace rodeándola con las etiquetas necesarias. 
+                    Utilice https://freecatphotoapp.com como el valor del atributo href de la 
+                    etiqueta <a>.
+                -->
                 <a href="https://freecatphotoapp.com">
                     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
                         alt="Un lindo gatito acostado boca arriba">
@@ -44,7 +63,7 @@
                 <h2>Listas de Gatos</h2>
                 <!-- Paso 18:
                     Después del último elemento <h2> del segundo elemento <section> 
-                    agregue un elemento <h3> con el texto 'Cosas que los gatos aman:'.
+                    agrega un elemento <h3> con el texto 'Cosas que los gatos aman:'.
                 -->
                 <!-- Paso 19:
                     Después del elemento <h3> con el texto 'Cosas que los gatos aman:'
