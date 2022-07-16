@@ -1,0 +1,114 @@
+<!-- Paso 41: Introducción
+    Una parte importante de los formularios son los botones.
+    Con la ayuda de los botónes podemos permitirle al usuario 
+    decidir cuando enviar un formulario una vez que lo ha completado
+
+    Por ejemplo: <button>Haz click aquí</button> crea un botón con el texto 'Haz click aquí'.
+    Para crear un botón Utiliza el elemento <button> para crear un botón clickeable.
+-->
+<!-- Paso 42: Introducción
+    Aunque añadiste el elemento <button> debajo del <input>, este aparece justo 
+    al lado al mostrarse en la página web. Esto se debe a que ambos elementos son 
+    elementos que se representan en una línea (inline), estos elementos no
+    aparecen en una línea nueva.
+
+    Anterioremente aprendiste que, por defecto, el elemento <button> de un formulario 
+    hace el envío del contenido de este elemento, pero puedes añadirlo explícitamente 
+    con el atributo type y el valor submit para hacerlo aún más claro.
+-->
+<!-- Paso 43: Introducción
+    Puedes utilizar botones 'radio' para obtener datos con una única respuesta 
+    a multiples opciones. Este es un ejemplo  de un botón radio con la 
+    opción de gato: <input type="radio"> gato.
+    Recuerda que los elementos <input> no requieren etiqueta de cierre.
+-->
+<!-- Paso 44: Introducción
+    Los elementos <label> son utilizados para ayudar asociar el texto de un <input> 
+    con el elemento en sí mismo (especialmente cuando se utilizan tecnologías 
+    como lectores de pantalla). Por ejemplo: <label><input type="radio"> gato</label> 
+    permite que haciendo click en la palabra gato, se seleccione el botón radio 
+    asociado a este elemento.
+-->
+<!-- Paso 45: Introducción
+    El atributo id es utilizado para identificar elementos HTML específicos.
+    Cada valor del atributo id debe ser único con respecto 
+    a los demás elementos dentro de la página.
+-->
+<html>
+    <body>
+        <h1>InstaGatos</h1>
+        <main>
+            <section>
+                <h2>Fotos de Gatos</h2>
+                <!-- TAREA: Agregar enlace a fotos de gatos. -->
+                <p>Haz click aqui para ver mas <a href='https://freecatphotoapp.com' target="_blank">fotos de gatos</a></p>
+                <a href="https://freecatphotoapp.com">
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+                        alt="Un lindo gatito acostado boca arriba">
+                </a>
+            </section>
+            <section>
+                <h2>Listas de Gatos</h2>
+                <h3>Cosas que los gatos aman:</h3>
+
+                <ul>
+                    <li>Siesta</li>
+                    <li>Punteros Laser</li>
+                    <li>Lasaña</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+                        alt="Una rebanada de lasaña">
+                    <figcaption>Los gatos <em>aman</em> la lasaña</figcaption>
+                </figure>
+                <h3>Top 3 de cosas que los gatos odian:</h3>
+                <ol>
+                    <li>Tratamiento antipulgas</li>
+                    <li>Truenos</li>
+                    <li>Otros gatos</li>
+                </ol>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+                        alt="Cinco gatos mirando alrededor de un campo">
+                    <figcaption>Los gatos <strong>odian</strong> otros gatos</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Formulario de gato</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <!-- Paso 41: 
+                        Añade un elemento <button> debajo del elemento <input> 
+                        con el texto 'Enviar'. El comportamiento por defecto al hacer 
+                        click a un botón de formulario sin ningún atributo, 
+                        es enviar el formulario a la dirección especificada en 
+                        el atributo action del elemento <form>.
+                    -->
+                    <!-- Paso 42: 
+                        Añade el atributo type al elemento <button> para especificar que este 
+                        elemento es para enviar el formulario.
+                    -->
+                    <!-- Paso 43: 
+                        Antes del elemento <input> de tipo texto, añade un botón radio 
+                        con la opción Interior.
+                    -->
+                    <!-- Paso 44: 
+                        Anida tu botón radio dentro de un elemento <label>.
+                    -->
+                    <!-- Paso 45: 
+                        Agrega el atributo id con el valor interior al botón de radio.
+                        Cuando los elementos poseen multiples atributos, el orden de estos no afecta.
+                    -->
+                    <!-- Paso 46: 
+                        Anida otro botón radio con la opción Exterior en un nuevo elemento <label>.
+                        El nuevo botón radio se debe colocar luego del primero. 
+                        Adicionalmente, asigna el valor de su atributo id como exterior.
+                    -->
+                    <label><input type="radio" id="interior"> Interior</label>
+                    <label><input type="radio" id="exterior"> Exterior</label>
+                    <input type="text" name="urlfotodegato" placeholder="URL de la foto" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
