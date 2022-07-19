@@ -1,0 +1,16 @@
+h1, h2, p {
+    text-align: center;
+}
+
+/* Paso 19: 
+    El texto está centrado de nuevo, esto significa que el enlace al archivo CSS 
+    está funcionando. Agrega otro estilo al archivo que cambie la propiedad 
+    background-color a brown en el elemento <body>.
+
+    Referencias:
+        https: //developer.mozilla.org/es/docs/Web/CSS/background-color
+
+*/
+body {
+    background-color: brown;
+}

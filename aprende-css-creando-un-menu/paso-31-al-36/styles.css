@@ -12,3 +12,12 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Paso 34: 
+    Utilizando la nueva clase sabor, asigna el valor left a la propiedad 
+    text-align.
+*/
+/* Paso 36: 
+    Ahora, alinea el precio a la derecha, modificando la propiedad 
+    text-align para los elementos con la clase precio.
+*/

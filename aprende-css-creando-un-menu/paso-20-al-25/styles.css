@@ -1,0 +1,31 @@
+h1, h2, p {
+    text-align: center;
+}
+
+/* Paso 20: 
+    El color brown que utilizamos hace difícil leer el texto de la página. 
+    Cambia el color de fondo del elemento <body> a burlywood, para que tenga el 
+    mismo color, pero se pueda leer mejor el texto.
+*/
+
+body {
+    background-color: brown;
+}
+
+/* Paso 22: 
+    Crea un nuevo selector de tipo en la hoja de estilos que le de al elemento 
+    <div> un ancho de 300px.
+*/
+/* Paso 24: 
+    Ahora, utiliza el selector del elemento <div> que creaste anteriormente 
+    para asignar el color de fondo del elemento a burlywood.
+*/
+/* Paso 25: 
+    Ahora resulta más fácil ver que el texto está centrado dentro del elemento 
+    <div>. Por ahora, el ancho del elemento <div> está especificado en pixeles(px). 
+    Cambia el valor de la propiedad width a 80%, para que de esta forma, ocupe 
+    el 80% del ancho de su elemento padre (body).
+
+    Referencias:
+        https: //developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units
+*/
