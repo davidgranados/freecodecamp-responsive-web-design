@@ -1,0 +1,94 @@
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.sabor, .postre {
+    text-align: left;
+    width: 75%;
+}
+
+.precio {
+    text-align: right;
+    width: 25%;
+}
+
+/* Paso 75: 
+    Utilizando el mismo selector de estilo del paso anterior, haz el tamaño de 
+    la fuente de los artículos y los precios más grande, asignando el valor 
+    18px a la propiedad font-size.
+*/
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.establecido {
+    font-style: italic;
+}
+
+/* Paso 76: 
+    Agrega un poco más de espacio creando una clase llamada linea-inferior y 
+    asignale el valor 25px a la propiedad margin-top.
+*/
+/* Paso 78: 
+    Ahora vas a darle estilos al elemento <footer>. Para mantener el CSS 
+    organizado, agrega un comentario al final del archivo styles.css con 
+    el texto FOOTER.
+*/
+
+/* Paso 79: 
+    Haz que todo el tamaño de fuente del texto del elemento <footer> tenga un 
+    valor de 14px.
+*/
+/* Paso 80: 
+    Para hacer que los enlaces del elemento <footer> sean del mismo color 
+    sin importar si el enlace ha sido visitado, utiliza un selector de tipo 
+    para el elemento <a> y asigna el valor black a su propiedad color.
+*/
+/* Paso 81: 
+    Cambia el color del enlace del <footer> Visita nuestro sitio web a gris 
+    cuando el enlace ya ha sido visitado.
+*/
+/* Paso 82:
+    Cambia el color del enlace Visita nuestra pagina web en el <footer> 
+    cuando el cursor se posicione sobre el enlace, cambiando su color a brown.
+*/
+/* Paso 83:
+    Cambia el color del enlace Visita nuestro sitio web en el <footer> a 
+    blanco cuando hacen click en él, asignando el valor white a su propiedad color.
+*/

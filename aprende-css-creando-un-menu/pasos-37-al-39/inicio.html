@@ -1,0 +1,72 @@
+<!-- Paso 37: Introducción
+    Comenzamos a obtener algunos resultados, pero sería mejor que el precio y 
+    sabor estuvieran en la misma línea. 
+    Los elementos <p> son elementos en bloque, lo que significa que toman el 
+    ancho completo de su elemento padre. 
+    Para ponerlos en la misma línea, necesitas aplicar algunos estilos a los
+    elementos <p>, para que se puedan comportar como elementos de línea.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements
+-->
+<!-- Paso 38: Introducción
+    Los elementos <p> están anidados en el elemento <article>
+    con la clase item. Puedes darle estilo a todos los elementos
+    <p> anidados dentro de esta clase de la siguiente manera:
+        
+    .item p { }
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/CSS/Descendant_combinator
+-->
+<!-- Paso 39: Introducción
+    Un poco mejor, pero el precio no se mantuvo a la derecha.
+    Esto se debe a que los elementos con la propiedad inline-block
+    solo toman el ancho de su contenido.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cafe Menu</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="menu">
+            <header>
+                <h1>CAMPER CAFE</h1>
+                <p>Est. 2020</p>
+            </header>
+            <main>
+                <section>
+                    <h2>Café</h2>
+                    <!-- Paso 37:
+                        Agrega un atributo class con el valor item al primer elemento 
+                        <article> debajo del título Café.
+                    -->
+                    <article>
+                        <p class="sabor">Vainilla Frances</p>
+                        <p class="precio">3.00</p>
+                    </article>
+                    <article>
+                        <p>Macchiato Caramelo</p>
+                        <p>3.75</p>
+                    </article>
+                    <article>
+                        <p>Especia de Calabaza</p>
+                        <p>3.50</p>
+                    </article>
+                    <article>
+                        <p>Avellana</p>
+                        <p>4.00</p>
+                    </article>
+                    <article>
+                        <p>Moca</p>
+                        <p>4.50</p>
+                    </article>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

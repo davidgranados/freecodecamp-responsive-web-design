@@ -1,0 +1,90 @@
+<!-- Paso 57: Introducción
+    El ancho actual del menú siempre
+    ocupará el 80% del ancho del 
+    elemento <body>. En una pantalla
+    muy amplia, los nombres del café
+    y los postres aparecerán muy lejos
+    de sus precios.
+-->
+<!-- Paso 58:
+    Puedes cambiar la fuente del
+    texto en tu página y hacer que
+    se vea diferente a la predeterminada
+    del navegador. Cada navegador tiene
+    algunas fuentes comunes disponibles.
+    
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/CSS/font
+-->
+<!-- Paso 59:
+    Es bastante tedioso que todo
+    el texto tenga la misma fuente.
+    Puedes tener la mayor parte del
+    texto con la fuente sans-serif y
+    hacer que solo los elementos <h1>
+    y <h2> sean diferentes, utilizando
+    un selector.
+-->
+<!-- Paso 60:
+    También puedes agregar una fuente
+    de respaldo, agregando el nombre
+    de esta fuente en la propiedad
+    font-family separandola con una coma
+    de la otra familia de fuentes que
+    hayas declarado. Estos respaldos se
+    utilizan en casos de que el navegador
+    no encuentre las fuentes que inicialmente
+    deseas utilizar.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cafe Menu</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="menu">
+            <header>
+                <h1>CAMPER CAFE</h1>
+                <p>Est. 2020</p>
+            </header>
+            <main>
+                <section>
+                    <h2>Café</h2>
+                    <article class="item">
+                        <p class="sabor">Vainilla Frances</p><p class="precio">3.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Macchiato Caramelo</p><p class="precio">3.75</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Especia de Calabaza</p><p class="precio">3.50</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Avellana</p><p class="precio">4.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Moca</p><p class="precio">4.50</p>
+                    </article>
+                </section>
+                <section>
+                    <h2>Postres</h2>
+                    <article class="item">
+                        <p class="postre">Dona</p><p class="precio">1.50</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Pie de Cereza</p><p class="precio">2.75</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Cheesecake</p><p class="precio">3.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Rol de Canela</p><p class="precio">2.50</p>
+                    </article>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

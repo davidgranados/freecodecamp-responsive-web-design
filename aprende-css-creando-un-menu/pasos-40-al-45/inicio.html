@@ -1,0 +1,71 @@
+<!-- Paso 40: Introducción
+    Bueno, eso no salió como esperabamos. Darle estilo a los elementos <p> como
+    inline-block y colocándolos en líneas separadas crea un espacio extra a la 
+    derecha del primer elemento <p>, ocasionando que el segundo baje a la 
+    siguiente línea. Una manera de solucionar esto, es hacer que el ancho de 
+    cada elemento <p> sea un poco menor al 50%.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cafe Menu</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="menu">
+            <header>
+                <h1>CAMPER CAFE</h1>
+                <p>Est. 2020</p>
+            </header>
+            <main>
+                <section>
+                    <h2>Café</h2>
+                    <!-- Paso 43:
+                        Ahora que sabes cómo funciona, puedes cambiar el resto
+                        de los elementos <article> y <p> para que sean iguales al
+                        primer par. Comienza agregando la clase item a los otros
+                        elementos <article>.
+                    -->
+                    <!-- Paso 44:
+                        Ahora, posiciona los elementos <p> para que estén en la misma
+                        línea sin espacio entre ellos.
+                    -->
+                    <!-- Paso 45:
+                        Para completar los estilos, agrega los nombres de clase
+                        sabor y precio al resto de los elementos <p>.
+                    -->
+                    <!-- Paso 41:
+                        Funcionó, pero hay un pequeño espacio a la derecha del precio.
+                                            
+                        Puedes seguir intentando varios porcentajes para el ancho.
+                        Pero en lugar de eso, simplemente mueve el elemento <p> 
+                        correspondiente al precio para que esté en la misma línea 
+                        y asegurate de que no haya espacio entre ellos.
+                    -->
+                    <article class="item">
+                        <p class="sabor">Vainilla Frances</p>
+                        <p class="precio">3.00</p>
+                    </article>
+                    <article>
+                        <p>Macchiato Caramelo</p>
+                        <p>3.75</p>
+                    </article>
+                    <article>
+                        <p>Especia de Calabaza</p>
+                        <p>3.50</p>
+                    </article>
+                    <article>
+                        <p>Avellana</p>
+                        <p>4.00</p>
+                    </article>
+                    <article>
+                        <p>Moca</p>
+                        <p>4.50</p>
+                    </article>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

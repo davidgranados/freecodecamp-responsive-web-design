@@ -1,0 +1,86 @@
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Paso 73: 
+    Crea un poco más de espacio al rededor del menú, agregando 20px de espacio 
+    dentro del elemento <body> utilizando la propiedad padding.
+*/
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.sabor, .postre {
+    text-align: left;
+    width: 75%;
+}
+
+.precio {
+    text-align: right;
+    width: 25%;
+}
+
+/* Paso 74: 
+    Si nos enfocamos en los artículos y precios del menú, hay una ligera 
+    separación entre cada línea. Selecciona todos los elementos <p> anidados 
+    en elementos con la clase item y asignales un valor de 5px a la 
+    propiedad margin-top y margin-bottom.
+*/
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.establecido {
+    font-style: italic;
+}
+
+/* Paso 68: 
+    Cambia la altura del elemento <hr> a 3px.
+*/
+/* Paso 69: 
+    Cambia el color de fondo del elemento <hr> asignando el valor brown a la 
+    propiedad background-color, para que pueda combinar con el color de los 
+    granos de café.
+*/
+/* Paso 70: 
+    Haz que todos los bordes del elemento <hr> sean del mismo color que el 
+    fondo utilizando la propiedad border-color.
+*/
+/* Paso 71: 
+    Cambia la propiedad height del elemento <hr> a 2px, para que el alto total 
+    sea de 4px.
+*/
+
+hr {
+    /* height: 3px; */
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}

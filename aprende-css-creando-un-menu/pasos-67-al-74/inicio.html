@@ -1,0 +1,109 @@
+<!-- Paso 67: Introducción
+    Puedes utilizar el elemento <hr>
+    para mostrar una línea divisora
+    entre secciones de diferente contenido.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/HTML/Element/hr
+-->
+<!-- Paso 68: Introducción
+    Las propiedades por defecto del
+    elemento <hr> harán que aparezca
+    una delgada línea gris. Puedes
+    cambiar el alto de la línea
+    especificando el valor para la
+    propiedad height.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/CSS/height
+-->
+<!-- Paso 70: Introducción
+    Nota que hay un color gris en los
+    bordes de la línea. Esos bordes se
+    representan con la propiedad borders.
+    Cada lado de los elementos puede tener
+    un color diferente o pueden ser todos
+    iguales.
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/CSS/border
+        https://developer.mozilla.org/es/docs/Web/CSS/border-color
+-->
+<!-- Paso 71: Introducción
+    Puedes notar que el grosor de la línea se ve más grande. El valor por 
+    defecto de la propiedad llamada border-width es 1px para todos los
+    bordes del elemento <hr>. Cambiando el borde al mismo color que el fondo,
+    el alto total de la línea es 5px (3px mas los bordes de la parte superior
+    e inferior).
+
+    Referencias:
+        https://developer.mozilla.org/es/docs/Web/CSS/border-width
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cafe Menu</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="menu">
+            <!-- Paso 67:
+                Primero, agrega el elemento <hr> entre
+                el primer elemento <header> y el
+                elemento <main>. Fíjate que los elementos
+                <hr> son de cierre automático.
+            -->
+            <header>
+                <h1>CAMPER CAFE</h1>
+                <p class="establecido">Est. 2020</p>
+            </header>
+            <main>
+                <section>
+                    <h2>Café</h2>
+                    <article class="item">
+                        <p class="sabor">Vainilla Frances</p><p class="precio">3.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Macchiato Caramelo</p><p class="precio">3.75</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Especia de Calabaza</p><p class="precio">3.50</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Avellana</p><p class="precio">4.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="sabor">Moca</p><p class="precio">4.50</p>
+                    </article>
+                </section>
+                <section>
+                    <h2>Postres</h2>
+                    <article class="item">
+                        <p class="postre">Dona</p><p class="precio">1.50</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Pie de Cereza</p><p class="precio">2.75</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Cheesecake</p><p class="precio">3.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="postre">Rol de Canela</p><p class="precio">2.50</p>
+                    </article>
+                </section>
+            </main>
+            <!-- Paso 72:
+                Ahora, agrega otro elemento <hr> entre el elemento <main> 
+                y el elemento <footer>.
+            -->
+            <footer>
+                <p>
+                    <a href="https://www.freecodecamp.org">Visita nuestro sitio web</a>
+                </p>
+                <p>123 Calle del Cafe</p>
+            </footer>
+        </div>
+    </body>
+</html>
