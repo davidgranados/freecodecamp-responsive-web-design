@@ -1,0 +1,23 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+/*
+    Paso 15: 
+    Utiliza márgenes para ajustar el espaciado en la parte externa
+    de un elemento.
+
+    Utilizando la propiedad margin, dale al elemento con la clase .marco
+    un margen vertical de 20px y un margen horizontal con valor auto.
+    Esto hará que el marco se desplace 20px y se centre horizontalmente
+    en la página.
+*/
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}

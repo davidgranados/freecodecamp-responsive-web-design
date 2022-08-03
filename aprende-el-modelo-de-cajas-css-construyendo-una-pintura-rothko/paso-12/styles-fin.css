@@ -1,0 +1,19 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+/*
+    Paso 12: 
+    Escribe una nueva regla CSS utilizando el selector de clase
+    para la clase .marco
+
+    Utiliza el atajo de la propiedad border para darle al elemento
+    con la clase .marco los valores 50px solid black en su propiedad
+    border.
+*/
+
+.marco {
+    border: 50px solid black;
+}

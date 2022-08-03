@@ -1,0 +1,29 @@
+/* Paso 22:
+    Agregando 1 pixel de padding a todos los lados del lienzo cambió
+    sus dimensiones a 502 pixeles por 602 pixeles.
+
+    Reemplaza la propiedad padding por la propiedad overflow y asignale
+    el valor hidden, cambiando el lienzo de nuevo a sus dimensiones
+    originales.
+*/
+
+.lienzo {
+    width: 500px;
+    height: 600px;
+    padding: 1px;
+    background-color: #4d0f00;
+}
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.uno {
+    width: 425px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: #efb762;
+}

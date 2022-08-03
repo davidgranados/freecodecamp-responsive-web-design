@@ -1,0 +1,52 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #4d0f00;
+    filter: blur(2px);
+}
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.uno {
+    width: 425px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 9px;
+    box-shadow: 0 0 3px 3px #efb762;
+    background-color: #efb762;
+}
+
+/* Paso 41:
+    Utiliza la propiedad border-radius en el selector de clase dos, para
+    cambiar las esquinas superior izquierda en inferior derecha a 8px y
+    las esquinas inferior izquierda y superior derecha a 10px.
+*/
+
+.dos {
+    width: 475px;
+    height: 200px;
+    margin: auto;
+    border-radius: 8px 10px;
+    box-shadow: 0 0 3px 3px #8f0401;
+    background-color: #8f0401;
+}
+
+.tres {
+    width: 91%;
+    height: 28%;
+    margin: 0 auto 20px auto;
+    filter: blur(2px);
+    box-shadow: 0 0 5px 5px #b20403;
+    background-color: #b20403;
+}
+
+.uno,
+.dos {
+    filter: blur(3px);
+}
