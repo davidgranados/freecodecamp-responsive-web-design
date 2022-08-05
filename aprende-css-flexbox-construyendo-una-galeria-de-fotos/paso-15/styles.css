@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Paso 15:
+    La propiedad align-items posiciona el contenido a lo largo del eje
+    transversal. En este caso, con la propiedad flex-direction en row,
+    tu eje transversal debería ser el vertical.
+
+    Para centrar verticalmente las imágenes, dale al selector para #galeria
+    el valor center en su propiedad align-items.
+*/
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

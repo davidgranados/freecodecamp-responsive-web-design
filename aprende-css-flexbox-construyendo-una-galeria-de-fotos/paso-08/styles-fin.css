@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Paso 8:
+    En este momento, tus imágenes son muy grandes y no es posible notar
+    los cambios en el CSS.
+
+    Crea un selector de descendiente para el elemento #galeria y 
+    selecciona todos los elementos <img> dentro de él. Dales el valor 25% 
+    a su atributo width.
+
+    Adicionalmente, asigna el valor 300px a su propiedad height para que
+    tus imágenes tengan un tamaño uniforme.
+*/
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}

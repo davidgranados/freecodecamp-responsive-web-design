@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Paso 12:
+    Dale a tu selector para #galeria el valor row a su propiedad 
+    flex-direction.
+*/
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+}
