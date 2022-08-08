@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <form action="../registro.html">
+            <fieldset>
+                <label>Ingresa tu Nombre: <input type="text" required></label>
+                <label>Ingresa tu Apellido: <input type="text" required></label>
+                <label>Ingresa tu E-mail: <input type="email" required></label>
+                <label>Crea una Nueva Contraseña: <input type="password" required pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+            <fieldset>
+                <!-- Paso 25:
+                    Para relacionar estos elementos, dales el mismo valor a su atributo name, 
+                    este valor será tipo-cuenta.
+                -->
+                <label>
+                    <input type="radio">
+                    <!-- Paso 24:
+                        Agrega un espacio y coloca el siguiente texto:
+                        Cuenta Personal
+                    -->
+                </label>
+                <label>
+                    <input type="radio">
+                    <!-- Paso 24:
+                        Agrega un espacio y coloca el siguiente texto:
+                        Cuenta Empresarial
+                    -->
+                </label>
+                <label>
+                    <!-- Paso 26:
+                        Crea el enlace en el texto términos y condiciones utilizando la 
+                        siguiente dirección: ../terminos-condiciones.html
+                    -->
+                    <input type="checkbox" required>
+                    <!-- Paso 24:
+                        Agrega un espacio y coloca el siguiente texto:
+                        He leído y acepto los términos y condiciones
+                    -->
+                </label>
+            </fieldset>
+            <!-- Paso 27:
+                Agrega un elemento <label> con el texto: Subir una foto de perfil: y 
+                agrega un elemento <input> con el atributo type igual a file para enviar 
+                el archivo.
+            -->
+            <!-- Paso 28:
+                Agrega otro elemento <label> luego del primero, con el texto 
+                Ingresa tu edad (años): 
+                Luego, anida un elemento <input> con el atributo type igual a number.
+
+                Como no queremos que los usuarios menores a 13 años se registren,
+                agrega el atributo min al elemento <input> con el valor de 13.
+                Además, podemos asumir que usuarios mayores a 120 años no se
+                registrarán; agrega el atributo max con el valor de 120.
+            -->
+            <!-- Paso 29:
+                Agrega un elemento <select> debajo de los dos elementos <label>. Luego, 
+                anida 5 elementos <option> dentro del elemento <select>.
+            -->
+            <!-- Paso 30:
+                Anida el elemento <select> dentro de un elemento <label> con el texto 
+                ¿Dónde escuchaste sobre nosotros?. El texto debería estar antes del 
+                elemento <select>.
+            -->
+            <fieldset></fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

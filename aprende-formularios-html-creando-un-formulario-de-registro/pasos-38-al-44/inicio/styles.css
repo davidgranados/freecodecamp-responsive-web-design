@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+h1, p {
+    /* Dale un valor 1em auto a la propiedad margin */
+    /* Alínea su texto en el centro */
+}
+
+form {
+    /* Dale el valor 0 auto a la propiedad margin */
+    /* Modifica el tamaño para que tenga un ancho máximo de 500px y mínimo de 300px */
+    /* Mientras esté en ese rango, haz que tenga un ancho de 60vw */
+}
+
+fieldset {
+    /* Elimina los bordes */
+    /* Agrega un padding superior e inferior de 2rem y elimina el padding de los lados */
+}
+
+/* Selecciona todos excepto el último elemento y dales un valor 3px solid #3b3b4f 
+    a su propiedad border-bottom. */
+
+/* Selecciona todos los elementos <input>, <textarea> y <select> y hazlos ocupar el ancho 
+    máximo de sus elementos padre */
+/* Agrega la propiedad margin con el valor 10px en la parte superior y 0 al resto de los 
+    márgenes de los elementos seleccionados. */
+
+/* Selecciona solo los elementos con la clase inline y dales el valor unset para su 
+    propiedad width */

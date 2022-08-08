@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <!-- Paso 36:
+            Ahora, dale a cada elemento que enviaremos en el formulario un atributo name con valor 
+            único (el que tú escojas). A excepción de los dos botones radio.
+        -->
+        <form action="https://register-demo.freecodecamp.org">
+            <fieldset>
+                <label>Ingresa tu Nombre: <input type="text" required></label>
+                <label>Ingresa tu Apellido: <input type="text" required></label>
+                <label>Ingresa tu E-mail: <input type="email" required></label>
+                <label>Crea una Nueva Contraseña: <input type="password" required pattern="[a-z0-5]{8,}"></label>
+            </fieldset>
+            <fieldset>
+                <label><input type="radio" name="tipo-cuenta"> Cuenta Personal</label>
+                <label><input type="radio" name="tipo-cuenta"> Cuenta Empresarial</label>
+                <label><input type="checkbox" required> He leido y acepto los <a
+                        href="https://www.freecodecamp.org/news/terms-of-service/">terminos y condiciones</a></label>
+            </fieldset>
+            <fieldset>
+                <label>Subir una foto de perfil: <input type="file"></label>
+                <label>Ingresa tu edad (años): <input type="number" min="13" max="120"></label>
+                <label>¿Dónde escuchaste sobre nosotros?
+                    <!-- Paso 31:
+                        Las opciones del desplegable se encuentran vacías hasta ahora.
+                        Para darles contenido, agrega el siguiente texto, posteior a 
+                        cada elemento <option>:
+                                    
+                        (selecciona una opción)
+                        Noticias
+                        Canal de YouTube
+                        Foros
+                        Otros
+                    -->
+                    <!-- Paso 32:
+                        Dale al primer elemento <option> el atributo value igual a "" y a los siguientes 
+                        elementos el value del 1 al 4, respectivamente.
+                    -->
+                    <!-- Paso 33:
+                        Para permitir que los usuarios se registren con una biografía, agrega un elemento 
+                        <label> con el texto Escribe una bio: seguido de un elemento <textarea> 
+                        (el cual requiere una etiqueta de cierre).
+                    -->
+                    <!-- Paso 34:
+                        El elemento <textarea> pareciera ser muy pequeño. Para darle un
+                        tamaño inicial, puedes agregar los atributos rows (filas) 
+                        y cols (columnas).
+                    
+                        Utiliza el tamaño inicial de 3 filas y 30 columnas.
+                    -->
+                    <!-- Paso 35
+                        Dale al elemento <textarea> el atributo placeholder igual a: Me gusta programar en 
+                        la playa...
+                    -->
+                    <select>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </label>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

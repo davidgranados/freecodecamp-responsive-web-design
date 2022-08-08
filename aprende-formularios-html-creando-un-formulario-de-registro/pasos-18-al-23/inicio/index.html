@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Formulario de Registro</h1>
+        <p>Por favor, llena este formulario con la información requerida.</p>
+        <form action="../registro.html">
+            <fieldset>
+                <!-- Paso 18:
+                    Para hacer el formulario más interactivo, agrega el
+                    atributo required a los elementos <input> del primer
+                    <fieldset>.
+                -->
+                <!-- Paso 19:
+                    Agrega el atributo minlength con el valor 8 al elemento
+                    <input> correspondiente a la contraseña.
+                -->
+                <!-- Paso 20:
+                    Agrega el atributo pattern al elemento <input> para la contraseña, 
+                    y haz que esta coincida con el patrón: [a-z0-5]{8,}
+                -->
+                <label>Ingresa tu Nombre: <input type="text"></label>
+                <label>Ingresa tu Apellido: <input type="text"></label>
+                <label>Ingresa tu E-mail: <input type="email"></label>
+                <label>Crea una Nueva Contraseña: <input pattern="[a-z]" type="password"></label>
+            </fieldset>
+            <!-- Paso 21:
+                Crea tres elementos <label> en el segundo elemento <fieldset>
+            -->
+            <!-- Paso 22:
+                Dentro de cada uno de los primeros dos elementos <label>, agrega un elemento 
+                <input> con el valor del atributo type igual a radio.
+            -->
+            <!-- Paso 23:
+                Agrega un elemento <input> con el atributo type igual a checkbox en el tercer elemento <label>
+                y como no queremos que los usuarios se registren sin haber leído los términos y condiciones, haz
+                este campo requerido.
+            -->
+            <fieldset></fieldset>
+            <fieldset></fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
