@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Documentacion</title>
+    </head>
+    <body>
+        <h1>Proyecto: Formulario de Registro</h1>
+        <p>
+            Para que solo podamos escoger una de las opciones en nuestros botones radio, debemos indicarle al formulario que estos forman parte
+            de la misma respuesta o están relacionados. Esto lo podemos conseguir a través de su atributo <code>name</code>. Cuando un grupo de botones
+            radio forman parte de la misma respuesta, asginando el mismo valor a su atributo <code>name</code> el navegador sabrá que estos están relacionados
+            permitiendo entonces que solo una de las opciones sea seleccionada.
+        </p>
+        <p>
+            Para poder crear enlaces a otras páginas, necesitamos utilizar el elemento <code>&lt;a&gt;</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/a">1</a></sup>,
+            el cual en su atributo <code>href</code> apunta a la dirección a la cual se debe dirigir al hacer click en el elemento.
+        </p>
+        <p>
+            Para que un usuario pueda cargar archivos en nuestro formulario, podemos utilizar el tipo <code>file</code>.
+            Este tipo de <code>&lt;input&gt;</code> permite al usuario escoger uno o más archivos de su dispositivo y, una vez que han sido seleccionados, cargarlos al servidor utilizando el
+            botón de envío del formulario o manipulandolo a través de código JavaScript.
+        </p>
+        <p>
+            Otro de los tipos que podemos utilizar en con el elemento <code>&lt;input&gt;</code> son los <code>number</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/input/number">2</a></sup>,
+            estos permiten al usuario ingresar valores numericos e incluyen validación incorporada para rechazar entradas que no sean de este tipo. Este tipo también posee atributos como el min y max, que permiten crear
+            un rango de valores y para que se pueda enviar el formulario los valores ingresados deben coincidir con dicho rango.
+        </p>
+        <p>
+            También podemos presentar opciones al usuario utilizando un desplegable como lo es el elemento <code>&lt;select&gt;</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/select">3</a></sup>,
+            este elemento funciona como un contenedor, en el cual se anidan elementos <code>&lt;option&gt;</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/option">4</a></sup>, los cuales representan
+            cada opción disponible dentro del <code>&lt;select&gt;</code>. Es importante mencionar que ambos elementos están conformados por etiquetas de apertura y de cierre.
+        </p>
+    </body>
+</html>

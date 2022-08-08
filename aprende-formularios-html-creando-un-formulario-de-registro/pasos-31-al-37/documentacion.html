@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Documentacion</title>
+    </head>
+    <body>
+        <h1>Proyecto: Formulario de Registro</h1>
+        <p>
+            Si se intenta enviar el formulario seleccionando cualquier opción del <code>&lt;select&gt;</code>, en realidad no va a proporcionar ningún tipo de valor útil al servidor.
+            Para cambiar esto, cada elemento <code>&lt;option&gt;</code> debe tener el atributo <code>value</code> y el valor que se le asigne a este atributo, será el que en realidad
+            reciba el servidor y se utilice como data para procesar del formulario. Sino, simplemente se enviará el texto que contiene el elemento <code>&lt;option&gt;</code> seleccionado.
+        </p>
+        <p>
+            También podemos recibir información por parte del usuario a través del elemento <code>&lt;textarea&gt;</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/textarea">1</a></sup>.
+            Estos actúan como los elementos <code>&lt;input&gt;</code> de tipo text, pero con la diferencia o beneficio adicional de que son capaces de recibir múltiples líneas de texto y además se les puede dar un valor
+            inicial a sus dimensiones, las cuales vienen representadas por filas y columnas y se modifican a través de sus atributos rows y cols, respectivamente.
+        </p>
+        <p>
+            Además de los elementos <code>&lt;label&gt;</code>, donde damos al usuario información sobre el campo que está llenando, podemos utilizar el atributo <code>placeholder</code>. Este atributo acepta un valor
+            de texto, el cual es mostrado dentro del campo o elemento <code>&lt;input&gt;</code> hasta que el usuario comienza a escribir dentro de dicho elemento.
+        </p>
+        <label for="ejemplo-textarea">Ejemplo: </label>
+        <textarea id="ejemplo-textarea" cols="30" rows="3" placeholder="Me muestro mientras no escribas nada aquí"></textarea>
+        <p>
+            El atributo <code>name</code> se utiliza para identificar cada elemento al momento de enviar el formulario, es decir, cuando se recibe el formulario luego de ser enviado, es procesado utilizando el valor de su
+            atributo <code>name</code>. Es por esta razón que es una buena práctica siempre asignar un valor a cada elemento del formulario que se desea procesar.
+        </p>
+        <p>
+            Comenzaremos a dar estilos a los elementos de nuestro formulario, comenzando por los que están dentro del <code>&lt;body&gt;</code>. 
+            Modificaremos la familia de fuentes y su tamaño modificando sus propiedades <code>font-family</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/CSS/font-family">2</a></sup> y
+            <code>font-size</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/CSS/font-size">3</a></sup>.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Documentacion</title>
+    </head>
+    <body>
+        <h1>Proyecto: Formulario de Registro</h1>
+        <p>
+            Dentro de los elementos <code>&lt;fieldset&gt;</code> tendremos los campos a través de los cuales vamos a solicitar la información a los usuarios, para darles una
+            idea de qué tipo de información esperamos recibir en esos campos tenemos varios elementos que nos pueden ayudar. Uno de ellos es el <code>&lt;label&gt;</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/label">1</a></sup>.
+            Haciendo uso del <code>&lt;label&gt;</code> podremos colocar una etiqueta la cual se mostrará en la página para que el usuario sepa a qué información está relacionada cada campo.
+        </p>
+        <p>
+            Los elementos <code>&lt;input&gt;</code> <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Element/input">2</a></sup> son elementos que permiten crear campos para recibir la información por parte de los usuarios.
+            Estos pueden ir desde campos de texto hasta listas desplegables, dependiendo del tipo de información que se desee solicitar. Para poder indicar el tipo de información o comportamiento que deseamos que tengan los elementos <code>&lt;input&gt;</code>,
+            debemos utilizar su atributo <sup><a target="_blank" href="https://developer.mozilla.org/es/docs/Web/HTML/Attributes">3</a></sup> <code>type</code>. Por defecto, el navegador asigna el valor text a este atributo si no es especificado, además, dependiendo del tipo que se indique al elemento, este puede contar
+            con validaciones nativas por parte del navegador para asegurar que se ingresa el tipo de información esperada en estos campos. Por ejemplo, el tipo email solo permite direcciones de correo electronico con
+            los caracteres @ y un . en su dominio.
+        </p>
+        <p>
+            Cuando un elemento <code>&lt;input&gt;</code> tiene el tipo submit en su atributo type, es asignado para enviar la información del elemento <code>&lt;form&gt;</code> inmediato (su ancestro).
+        </p>
+    </body>
+</html>
