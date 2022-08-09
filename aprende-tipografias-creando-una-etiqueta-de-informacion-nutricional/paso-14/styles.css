@@ -1,0 +1,28 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Paso 14:
+    Ajusta la posición del <h1> dándole un margen superior e inferior
+    de -4px y el valor 0 a sus margenes laterales.
+*/
+
+h1 {
+    font-weight: 800;
+    text-align: center;
+}

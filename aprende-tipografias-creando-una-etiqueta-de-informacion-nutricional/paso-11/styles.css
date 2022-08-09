@@ -1,0 +1,25 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+/* Paso 11:
+    Si inspeccionas tu elemento .etiqueta con las herramientas de
+    desarrollador de tu navegador, podrás notar que en realidad
+    tiene 368px de ancho en lugar de 350. Esto se debe a que, por
+    defecto, el navegador incluye los valores correspondientes a las
+    propieades border y padding cuando calcula el tamaño de un elemento.
+
+    Para solucionar esto, reinicia el modelo de cajas creando el selector
+    universal * y dándole el valor border-box a su propiedad box-sizing.
+*/

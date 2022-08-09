@@ -1,0 +1,47 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+p {
+    margin: 0;
+}
+
+.divisor {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.negrita {
+    font-weight: 800;
+}
+
+.derecha {
+    float: right;
+}
+
+/* Paso 27:
+    Crea un nuevo selector .gd y dale a su propiedad height el valor 10px.
+    Además, crea una lista de selectores .gd, .md y asigna a su propiedad
+    background-color la palabra clave black.
+*/
