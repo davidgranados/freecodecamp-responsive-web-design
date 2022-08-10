@@ -73,5 +73,5 @@ p {
 }
 
 .valor-diario p:not(.no-divisor) {
-    border-bottom: #888989;
+    border-bottom: 1px solid #888989;
 }
