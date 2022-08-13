@@ -1,0 +1,8 @@
+html {
+    box-sizing: border-box;
+}
+
+/* Paso 29:
+    Crea un selector para el body y dale a su propiedad font-family el valor
+    sans-serif y un color #0a0a23.
+*/

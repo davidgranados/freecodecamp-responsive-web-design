@@ -1,0 +1,22 @@
+/* Paso 31:
+    La propiedad clip de CSS es utilizada para definir las partes visibles de un elemento.
+    Asigna al selector creado en el paso anterior la propiedad clip con el valor
+    rect(1px, 1px, 1px, 1px).
+
+    La propiedad clip-path determina la forma que la propiedad clip debe tomar.
+    Usa ambas propiedades clip-path y -webkit-clip-path y asignales el valor
+    inset(50%), formando un rectangulo dentro del elemento.
+*/
+
+span[class~="sr-only"] {
+    border: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #0a0a23;
+}

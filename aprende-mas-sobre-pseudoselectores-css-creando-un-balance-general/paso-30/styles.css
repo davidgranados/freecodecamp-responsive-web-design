@@ -1,0 +1,21 @@
+/* Paso 30:
+    Antes de seguir agregando estilos, deberíamos hacer uso de la clase sr-only.
+    Puedes utilizar CSS para hacer que los elementos estén completamente ocultos,
+    (visualmente) de la página, pero que sigan siendo dictados por los lectores de
+    pantalla.
+
+    El código CSS que estás por agregar, son las propiedades que comunmente se utilizan
+    para asegurar que los elementos se oculten visualmente por completo.
+
+    El selector span[class~="sr-only"] seleccionará cualquier elemento span que incluya
+    la clase sr-only. Crea este selector y dale a su propiedad border el valor 0.
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #0a0a23;
+}

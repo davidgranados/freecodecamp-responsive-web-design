@@ -1,0 +1,45 @@
+span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #0a0a23;
+}
+
+h1 {
+    max-width: 37.25rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+}
+
+h1 .flex {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+
+h1 .flex span:first-of-type {
+    font-size: 0.7em;
+}
+
+/* Paso 38:
+    El pseudo-selector :last-of-type hace todo lo opuesto al que vimos en el
+    paso anterior (selecciona el último elemento que coincida). Crea un selector
+    h1 .flex span:last-of-type para seleccionar el último span del contenedor y 
+    modificar el tamaño de su fuente a 1.2em para hacerlo parecer el encabezado principal.
+*/

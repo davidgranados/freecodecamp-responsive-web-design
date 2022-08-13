@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Balance General</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1><span class="flex"><span>AcmeCorp</span> <span>Balance General</span></span></h1>
+                <div id="anios" aria-hidden="true">
+                    <span class="anio">2020</span>
+                    <span class="anio">2021</span>
+                    <span class="anio">2022</span>
+                </div>
+                <div class="contenedor-tabla">
+                    <table>
+                        <caption>Activos</caption>
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th><span class="sr-only anio">2020</span></th>
+                                <th><span class="sr-only anio">2021</span></th>
+                                <th class="actual"><span class="sr-only anio">2022</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="data">
+                                <th>Efectivo <span class="descripcion">Este es el efectivo que tenemos disponible actualmente.</span></th>
+                                <td>$25</td>
+                                <td>$30</td>
+                                <td class="actual">$28</td>
+                            </tr>
+                            <!-- Paso 14:
+                                En el segundo elemento <tr>, agrega un elemento <th> con
+                                el texto Cheques Nuestra cuenta de transacciones principal.
+                                Rodea todo el texto, exceptuando Cheques, en un elemento <span>
+                                con la clase descripcion.
+
+                                Seguido de esto, agrega tres (3) elementos <td> con el siguiente texto
+                                (en orden): $54, $56, $53. Al tercer elemento <td> la clase actual.
+                            -->
+                            <tr class="data"></tr>
+                            <tr class="data"></tr>
+                            <tr class="total"></tr>
+                        </tbody>
+                    </table>
+                    <table></table>
+                    <table></table>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
