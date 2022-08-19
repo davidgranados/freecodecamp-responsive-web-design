@@ -1,5 +1,5 @@
 /* Paso 46:
-    Para no tener que estar verifiando constantemente que no estás sobreescribiendo
+    Para no tener que estar verificando constantemente que no estás sobreescribiendo
     los estilos en elementos previamente seleccionados, puedes utilizar la palabra
     clave !important y así asegurarte que estas propiedades siempre serán aplicadas,
     sin importar el orden de especificidad.

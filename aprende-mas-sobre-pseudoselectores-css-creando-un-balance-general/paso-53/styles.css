@@ -98,5 +98,5 @@ tbody td {
 
 /* Paso 53:
     Ahora selecciona los elementos th dentro del cuerpo de la tabla y dales
-    un ancho del contenedor entero y menor a 12rem.
+    un ancho del contenedor entero menos 12rem.
 */

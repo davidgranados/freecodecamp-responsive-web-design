@@ -138,9 +138,9 @@ tr.data th {
 }
 
 /* Paso 62:
-    Crea un selector tr.data ht .descripcion para seleccionar los elementos con
+    Crea un selector tr.data th .descripcion para seleccionar los elementos con
     esta clase y que están dentro de un th en las filas con la clase .data.
     Asignales a su propiedad display el valor block, haz que su texto tenga estilo
     italico y una densidad normal, también posicionalos con un padding 1rem 0 0.75rem
-    y un margen derecho de -13.rem.
+    y un margen derecho de -13rem.
 */
