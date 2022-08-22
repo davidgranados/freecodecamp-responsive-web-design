@@ -1,0 +1,14 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+/* Paso 13: 
+    En el selector de clase .marco, asigna el valor 500 pixeles a su
+    propiedad width.
+*/
+
+.marco {
+    border: 50px solid black;
+}

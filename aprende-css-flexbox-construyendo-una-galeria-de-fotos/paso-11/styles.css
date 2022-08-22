@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Paso 11:
+    Flexbox es un enfoque de diseño unidimensional de CSS, que se centra
+    en el flujo del contenido. Ofrece la capacidad de controlar la forma
+    en la que los elementos se alínean y distribuyen dentro de un 
+    contenedor.
+
+    Para configurar un elemento como Flexbox, se le asigna a su propiedad
+    display el valor flex. Crea un selector para el elemento #galeria y
+    asignale el valor flex a su propiedad display.
+*/

@@ -1,0 +1,21 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* Paso 18:
+    Ahora asigna un alto de 150 pixeles.
+*/
+
+.uno {
+    width: 425px;
+    height: 150px;
+}

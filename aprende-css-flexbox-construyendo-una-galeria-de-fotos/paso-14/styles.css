@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Paso 14:
+    La propiedad justify-content determina cómo se van a posicionar los
+    elementos dentro de un contenedor flex a lo largo de su eje principal,
+    afectando su posición y el espacio alrededor de ellos.
+
+    En tu selector para #galeria, asigna el valor center en la propiedad
+    justify-content.
+*/
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

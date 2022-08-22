@@ -1,0 +1,18 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+/* Paso 14: 
+    En el selector de clase .marco, utiliza el atajo para la propiedad
+    padding para incrementar el espacio entre los elementos .marco y
+    .lienzo en 50px. El atajo incrementará el espacio en los bordes
+    superior, inferior, izquierdo y derecho internos del elemento 
+    lienzo.
+*/
+
+.marco {
+    border: 50px solid black;
+    width: 500px;
+}

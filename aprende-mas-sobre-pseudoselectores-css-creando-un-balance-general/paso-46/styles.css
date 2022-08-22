@@ -1,0 +1,84 @@
+/* Paso 46:
+    Para no tener que estar verificando constantemente que no estás sobreescribiendo
+    los estilos en elementos previamente seleccionados, puedes utilizar la palabra
+    clave !important y así asegurarte que estas propiedades siempre serán aplicadas,
+    sin importar el orden de especificidad.
+
+    Dale a cada propiedad en tu selector para span[class~="sr-only"] la palabra clave
+    !important. No cambies ninguno de los valores.
+*/
+
+span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #0a0a23;
+}
+
+h1 {
+    max-width: 37.25rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+}
+
+h1 .flex {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+
+h1 .flex span:first-of-type {
+    font-size: 0.7em;
+}
+
+h1 .flex span:last-of-type {
+    font-size: 1.2em;
+}
+
+section {
+    max-width: 40rem;
+    margin: 0 auto;
+    border: 2px solid #d0d0d5;
+}
+
+#anios {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    background-color: #0a0a23;
+    z-index: 999;
+    margin: 0 -2px;
+    padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+}
+
+#anios span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+}
+
+.contenedor-tabla {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+span:not(.sr-only) {
+    font-weight: normal;
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Paso 13:
+    Dale a tu selector para #galeria el valor wrap en su propiedad flex-wrap.
+    Deberías ver que tus imágenes forman un diseño de cuatro columnas. Esto
+    se debe a que asignaste su propiedad width a 25% unos pasos atrás.
+*/
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

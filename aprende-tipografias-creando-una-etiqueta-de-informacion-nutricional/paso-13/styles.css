@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Paso 13:
+    Cambia el valor de la propiedad text-align a center en el selector
+    para el <h1>.
+*/
+
+h1 {
+    font-weight: 800;
+}

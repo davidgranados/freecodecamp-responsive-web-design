@@ -1,0 +1,30 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #4d0f00;
+}
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.uno {
+    width: 425px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: #efb762;
+}
+
+/* Paso 25:
+    Asginale el valor 200 pixeles al alto de nuestro elemento con la
+    clase dos.
+*/
+
+.dos {
+    width: 475px;
+    height: 200px;
+}

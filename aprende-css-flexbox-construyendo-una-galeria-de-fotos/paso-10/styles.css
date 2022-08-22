@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #ebe7e7;
+}
+
+/* Paso 10:
+    Ahora vas a centrar el texto de tu elemento .encabezado, 
+    dale un padding de 32px para todos sus lados, y asigna su color 
+    de fondo al valor hexa #E0DDDD.
+*/

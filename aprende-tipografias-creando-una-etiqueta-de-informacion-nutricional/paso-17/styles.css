@@ -1,0 +1,34 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 800;
+    text-align: center;
+    margin: -4px 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Paso 17:
+    Crea un selector para la nueva clase divisor y asigna a su propiedad
+    border-bottom los valores 1px solid #888989. Además, dale un margen
+    superior e inferior de 2px pero que no tenga margen lateral.
+*/

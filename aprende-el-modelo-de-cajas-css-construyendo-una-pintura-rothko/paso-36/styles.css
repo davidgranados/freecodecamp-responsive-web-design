@@ -1,0 +1,43 @@
+.lienzo {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #4d0f00;
+    filter: blur(2px);
+}
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.uno {
+    width: 425px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: #efb762;
+}
+
+.dos {
+    width: 475px;
+    height: 200px;
+    margin: 0 auto 20px;
+    background-color: #8f0401;
+}
+
+/* Paso 37:
+    Incrementa el difuminado de la clase tres en 2 pixeles.
+*/
+
+.tres {
+    width: 91%;
+    height: 28%;
+    margin: auto;
+    background-color: #b20403;
+}
+
+.uno, .dos {
+    filter: blur(3px);
+}

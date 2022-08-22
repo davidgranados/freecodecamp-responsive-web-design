@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Paso 13:
+    También podrás haber notado que todas las imágenes se han movido a la
+    misma fila.
+
+    La propiedad flex-wrap es la que determina cómo deben comportarse los
+    elementos cuando el contenedor es demasiado pequeño. Establecer esta
+    propiedad a wrap permitirá que sus elementos se ajusten a la siguiente
+    fila/columna (dependiendo de cual sea el eje principal), y su valor
+    nowrap evitará que sus elementos se ajusten. Cuando se asigna el valor
+    nowrap, los elementos podrán encogerse para ajustarse o desbordarse del
+    contenedor.
+
+    Dale a tu selector para #galeria el valor wrap en su propiedad flex-wrap.
+    Deberías ver que tus imágenes forman un diseño de cuatro columnas. Esto
+    se debe a que asignaste su propiedad width a 25% unos pasos atrás.
+*/
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+}

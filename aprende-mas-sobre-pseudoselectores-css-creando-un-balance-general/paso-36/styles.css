@@ -1,0 +1,37 @@
+span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #0a0a23;
+}
+
+h1 {
+    max-width: 37.25rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+}
+
+/* Paso 36:
+    Selecciona el contenedor flex con un h1 .flex y dale a su propiedad
+    display el valor flex para habilitar flexbox. Luego, asigna a su
+    propiedad flex-direction el valor column-reverse. Esto hará que los
+    elementos anidados se ubiquen del fondo al inicio. Por último, a la
+    propiedad gap dale el valor 1rem para crear algo de espacio entre los
+    elementos.
+*/
