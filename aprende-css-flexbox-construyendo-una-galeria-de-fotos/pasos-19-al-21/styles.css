@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+/* Paso 19:
+    Suaviza tus imágenes un poco dándole al selector #galeria img el
+    valor 10px en su propiedad border-radius.
+*/
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+}
+
+/* Paso 20:
+    Crea un media query para pantallas de menos de 800px de ancho.
+    En este media query, crea una regla en el selector #galeria img 
+    y asigna el valor 50% a su propiedad width. Esto convertirá tu 
+    galería en un diseño de dos columnas.
+*/
+
+/* Paso 21:
+    Para finalizar, crea otra media query para pantallas menores de 600px
+    de ancho. En esa media query, crea una regla para #galeria img donde
+    el valor de su propiedad width sea del 100%. Esto hará que tu galería
+    sea un diseño de una única columna.
+
+    Y con esto, tu galería de fotos con Flexbox está completa.
+*/

@@ -1,0 +1,26 @@
+/* Paso 7:
+    Normaliza el modelo de caja utilizando el selector universal * y
+    asigna el valor border-box a la propiedad box-sizing.
+*/
+/* Paso 8:
+    Crea un selector de descendiente para el elemento #galeria y 
+    selecciona todos los elementos <img> dentro de él. Dales el valor 25% 
+    a su atributo width.
+
+    Adicionalmente, asigna el valor 300px a su propiedad height para que
+    tus imágenes tengan un tamaño uniforme.
+*/
+/* Paso 9:
+    Elimina el margen de tu elemento <body>, asigna la familia de fuentes
+    Arial y cambia su color de fondo por el valor hexadecimal #EBE7E7.
+*/
+/* Paso 10:
+    Ahora vas a centrar el texto de tu elemento .encabezado, 
+    dale un padding de 32px para todos sus lados, y asigna su color 
+    de fondo al valor hexa #E0DDDD.
+*/
+/* Paso 11:
+    Para configurar un elemento como Flexbox, se le asigna a su propiedad
+    display el valor flex. Crea un selector para el elemento #galeria y
+    asignale el valor flex a su propiedad display.
+*/

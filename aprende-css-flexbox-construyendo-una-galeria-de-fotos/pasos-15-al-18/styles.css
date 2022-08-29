@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #EBE7E7;
+}
+
+/* Paso 17:
+    Dale a tu selector descendiente para #galeria img la propiedad object-fit
+    igual a cover. Esto hará que la imagen llene el contenedor <img> mientras
+    mantienen sus dimensiones, cortándola para que pueda ajustarse al tamaño.
+*/
+
+/* Paso 18:
+    Tus imágenes necesitan algo de espacio entre ellas.
+
+    Dale a tu selector #galeria img el valor 8px en su propiedad margin-top
+    y 0 4px en su propiedad padding.
+*/
+
+#galeria img {
+    width: 25%;
+    height: 300px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 32px;
+    background-color: #E0DDDD;
+}
+
+/* Paso 15:
+    Para centrar verticalmente las imágenes, dale al selector para #galeria
+    el valor center en su propiedad align-items.
+*/
+
+/* Paso 16:
+    Dale a tu selector para #galeria el valor 0 4px en su propiedad 
+    padding.
+*/
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
