@@ -1,0 +1,51 @@
+/* Paso 37:
+        Primero, en el selector de tipo para el h1, utiliza la función rgb para asignar 
+        su color de fondo a cian.
+*/
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 35:
+    En las reglas para las clases uno, dos y tres, ajusta los valores de las funciones rgb 
+    para que las propiedades background-color de cada elemento sean color negro puro.
+*/
+/* Paso 36:
+    En la función rgb para el selector de la clase uno, asigna el valor del color rojo a su 
+    maximo 255 para generar rojo puro.
+*/
+/* Paso 38:
+    En la regla para la clase uno, utiliza la función rgb para asignar el color de fondo a 
+    negro.
+*/
+
+.uno {
+    background-color: rgb(127, 255, 0);
+}
+
+/* Paso 36:
+    En la función rgb del selector de clase dos asigna los valores para verde y azul a 255 
+    y crea el color cian.
+*/
+/* Paso 38:
+    En la regla para la clase dos, usa la función rgb para asignar el color de fondo a rojo.
+*/
+
+.dos {
+    background-color: rgb(0, 127, 255);
+}
+
+.tres {
+    background-color: rgb(255, 0, 127);
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.uno {
+    background-color: rgb(255, 0, 0);
+}
+
+ /* Paso 23:
+    En la regla para la clase dos, utiliza la función rgb para asignar el background-color 
+    verde al máximo, y los demás valores a 0. Igualmente para el selector de clase tres, 
+    asignando el máximo valor al azul y los otros valores en 0.
+ */
+
+/* Paso 24:
+    En la regla CSS para la clase dos, asignale al valor de verde en la función rgb 127 
+    para disminuír su intensidad.
+*/
+
+.dos {
+    background-color: green;
+}
+
+.tres {
+    background-color: blue;
+}
+
+/* Paso 25:
+    En la regla CSS para la clase contenedor, utiliza la abreviatura para la propiedad 
+    padding y agrega 10px como valor para las propiedades de la parte superior e inferior.
+*/
+
+.contenedor {
+    background-color: rgb(0, 0, 0);
+}

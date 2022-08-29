@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 22:
+    En la regla CSS para el selector de clase .uno, utiliza la función rgb. 
+    Para el valor rojo asigna 255 y para los colores verde y azul asigna 0.
+*/
+
+
+ /* Paso 20: 
+    Crea una nueva regla CSS que seleccione la clase dos y le asigne el valor green a la 
+    propiedad background-color. Adicionalmente, crea otra regla que seleccione la clase 
+    tres y le asigne el valor blue a su propiedad background-color.
+ */
+
+/* Paso 21:
+    Crea una nueva regla CSS que seleccione la clase contenedor y le asigne el color de 
+    fondo negro utilizando la función rgb con todos sus valores en 0.
+*/

@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 28:
+    Para crear el primer color secundario (amarillo), cambia la función rgb de la regla CSS para 
+    la clase uno y asigna el máximo valor para rojo y verde.
+*/
+
+.uno {
+    background-color: rgb(255, 0, 0);
+}
+
+/* Paso 26:
+    Asigna a tu marcador verde el valor para verde puro, cambiando el valor a 255 para el verde
+    en la función rgb de la regla para la clase .dos
+*/
+
+.dos {
+    background-color: rgb(0, 127, 0);
+}
+
+.tres {
+    background-color: rgb(0, 0, 255);
+}
+
+/* Paso 27:
+    Asigna a la función RGB en el selector de la clase contenedor en las reglas CSS el valor 
+    máximo de 255 para cada color.
+*/
+
+.contenedor {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}

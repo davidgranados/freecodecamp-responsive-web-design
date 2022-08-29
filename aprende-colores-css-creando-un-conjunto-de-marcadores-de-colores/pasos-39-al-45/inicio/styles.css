@@ -1,0 +1,50 @@
+/* Paso 40: 
+    Ahora en el selector de tipo h1, elimina el color de fondo cian en la propiedad 
+    background-color para que vuelva a ser blanco.
+*/
+
+h1 {
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 42: 
+    Actualiza el selector de clase uno por el nuevo nombre de clase que acabas de crear.
+*/
+/* Paso 43:
+    Actualiza el valor de la función rgb para el selector de clase rojo, para que el valor 
+    del color rojo esté al máximo.
+*/
+
+.uno {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Paso 39:
+    Por ahora, utiliza la función rgb en el selector de la clase dos para asignar 
+    el color de fondo a negro.
+*/
+
+/* Paso 45: 
+    Actualiza los selectores de clase dos y tres con los nuevos valores de clase para los 
+    elementos <div> que modificamos en el paso anterior.
+*/
+
+.dos {
+    background-color: rgb(255, 0, 0);
+}
+
+.tres {
+    background-color: rgb(0, 0, 0);
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

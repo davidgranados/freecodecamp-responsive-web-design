@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 49:
+    En la regla CSS para el selector de clase rojo, cambia la propiedad 
+    background-color a background.
+*/
+/* Paso 50:
+    Primero, en la regla CSS para el selector rojo, asigna a la propiedad 
+    background la función linear-gradient y dale el valor 90deg como la dirección
+*/
+
+.rojo {
+    background-color: rgb(255, 0, 0);
+}
+
+/* Paso 46:
+    En la regla CSS para el selector de clase verde, asigna a la propiedad 
+    background-color los valores hex 00 para el rojo, FF para el verde y 00 para el azul.
+*/
+/* Paso 47:
+    Disminuye la intensidad del verde modificando el valor hex a 7F.
+*/
+
+.verde {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Paso 48:
+    En la regla CSS para el selector de clase azul, utiliza la función hsl para cambiar la 
+    propiedad background-color al azul puro. Asigna el valor del matiz (hue) a 240,
+    la saturación a 100% y la luminosidad a 50%.
+*/
+
+.azul {
+    background-color: rgb(0, 0, 0);
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

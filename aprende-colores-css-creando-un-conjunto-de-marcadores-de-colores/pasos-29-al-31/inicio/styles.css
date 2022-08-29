@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 31:
+    Para crear el color terciario naranja, cambia el valor de la función rgb en el 
+    selector de clase uno para que el rojo tenga su máximo valor, y cambia el verde a 127.
+*/
+
+.uno {
+    background-color: rgb(255, 255, 0);
+}
+
+/* Paso 29: 
+    Para crear el siguiente color secundario, cian, cambia los valores de la función rgb 
+    en el selector de clase dos para combinar verde puro y azul puro.
+*/
+
+.dos {
+    background-color: rgb(0, 255, 0);
+}
+
+/* Paso 30: 
+    Para crear el último color secundario (magenta), cambia el valor de los colores azul 
+    y rojo en la función rgb del selector de clase tres.
+*/
+
+.tres {
+    background-color: rgb(0, 0, 255);
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

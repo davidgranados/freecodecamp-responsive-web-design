@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+
+.marcador {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+/* Paso 64:
+  En el selector de clase para rojo, elimina las tres pausas de color de la 
+  función linear-gradient para limpiar un poco tu código.
+*/
+/* Paso 65:
+  Limpia un poco más tu código eliminando el argumento dirección en ambas 
+  funciones linear-gradient.
+*/
+
+.rojo {
+  background: linear-gradient(
+    180deg,
+    rgb(255, 74, 14) 0%,
+    rgb(245, 62, 113) 50%,
+    rgb(162, 27, 27) 100%
+  );
+}
+
+.verde {
+  background: linear-gradient(180deg, #55680d, #71f53e, #116c31);
+}
+
+/* Paso 66:
+  En el selector de clase azul, cambia la propiedad background-color por background.
+*/
+/* Paso 67: 
+  Utiliza la función linear-gradient y pasa en la función hsl los valores 186 para 
+  el matiz (hue), 76% para la saturación y 16% para la luminosidad del primer argumento 
+  de color.
+*/
+/* Paso 68:
+  Como segundo argumento de color, pasa una función hsl con los valores 223 para el matiz,
+  90% para la saturación y 60% para la luminosidad.
+*/
+/* Paso 69:
+  Para el tercer argumento de color, pasa una función hsl con los valores 240 para el matiz,
+  56% para la saturación y 42% para la luminosidad.
+*/
+
+.azul {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.contenedor {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+}

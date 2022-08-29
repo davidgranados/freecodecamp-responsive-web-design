@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+/* Paso 12:
+    En la regla CSS que creaste para tu clase .marcador, asignale 
+    a la propiedad width el valor de 200px y a la propiedad height 
+    el valor de 25px.
+*/
+/* Paso 13:
+    Para centrar el marcador en la página, asigna a la propiedad 
+    margin el valor auto. Esto hará que todos los valores del margen 
+    del elemento sean asignados como auto.
+*/
+/* Paso 15:
+    En los estilos para la clase .marcador, asigna la propiedad 
+    margin a 10px auto.
+*/
+/* Paso 17: 
+    Ahora, elimina la propiedad background-color y su valor del selector 
+    de clase .marcador
+*/
+
+.marcador{
+    background-color: red;
+}

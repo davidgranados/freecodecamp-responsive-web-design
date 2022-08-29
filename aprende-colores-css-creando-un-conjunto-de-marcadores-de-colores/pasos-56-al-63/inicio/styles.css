@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 56: 
+    Ahora, asigna la pausa de color para el rojo a 0%, asigna la pausa de 
+    color para el verde a 50%, y la pausa de color para azul a 100%.
+*/
+/* Paso 57:
+    Actualiza la función rgb, para que el valor de su primer argumento,
+    el cual es rojo puro, sea ahora de 122, el valor del verde sea 74 
+    y el valor del azul 14.
+*/
+/* Paso 58: 
+    Ahora, modifica el segundo argumento de color para la función linear-gradient,
+    el cual es verde puro. Actualiza la función rgb para que el valor del rojo sea 245,
+    el valor del verde sea 62 y el valor del azul sea 113.
+*/
+/* Paso 59: 
+    Actualiza la función rgb para que sus valores sean 162 para rojo, 27 para verde y 27 para azul
+    en el último argumento de la función linear-gradient.
+*/
+
+.rojo {
+    background: linear-gradient(180deg,
+            rgb(255, 0, 0) 75%,
+            rgb(0, 255, 0),
+            rgb(0, 0, 255));
+}
+
+/* Paso 60:
+    En el selector de clase para verde, cambia la propiedad background-color por background.
+*/
+/* Paso 61:
+    Utiliza la función linear-gradient y asigna la dirección a 180deg. Luego, para el primer 
+    argumento de color asigna 55 para el rojo, 68 para el verde y 0D para el azul.
+*/
+/* Paso 62:
+    Paso 62: Para el segundo argumento de color, utiliza el codigo hex con los valores 71 para rojo,
+    F5 para verde y 3E para azul.
+*/
+/* Paso 63:
+    Agrega un codigo de color hex con los valores 11 para rojo, 6C para verde y 31 para azul como 
+    tercer argumento de color.
+*/
+
+.verde {
+    background-color: #007F00;
+}
+
+.azul {
+    background-color: hsl(240, 100%, 50%);
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

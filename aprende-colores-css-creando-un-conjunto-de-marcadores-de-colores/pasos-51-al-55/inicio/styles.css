@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 51:
+    En la función linear-gradient, utiliza la función rgb para asignar 
+    el primer color a rojo puro.
+*/
+/* Paso 52:
+    En la misma función linear-gradient, utiliza la función rgb para 
+    asignar el segundo color a verde puro.
+*/
+/* Paso 53:
+    Utiliza la función rgb para agregar azul puro como tercer argumento 
+    de color a la función linear-gradient.
+*/
+/* Paso 54:
+    En la función linear-gradient, agrega un 75% luego del primer argumento 
+    de color (rojo). No agregues pausas de color a otros argumentos.
+*/
+/* Paso 55:
+    En la función linear-gradient, cambia la dirección del degradado a 180deg.
+*/
+
+.rojo {
+    background: linear-gradient(90deg);
+}
+
+.verde {
+    background-color: #007F00;
+}
+
+.azul {
+    background-color: hsl(240, 100%, 50%);
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

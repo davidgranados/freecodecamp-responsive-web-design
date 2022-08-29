@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 34:
+    Para crear el verde lima, modifica los valores de la función rgb en el 
+    selector de clase uno para que el rojo sea 127, y el verde esté en su 
+    máximo valor.
+*/
+
+.uno {
+    background-color: rgb(255, 127, 0);
+}
+
+/* Paso 32:
+    Para crear el color terciario verde cian, combina el cian con el verde. 
+    Cambia los valores de la función rgb del selector de clase dos para que el 
+    valor del color verde esté al máximo y el del azul esté en 127.
+*/
+/* Paso 34:
+    Para el azur, modifica los valores de la función rgb en el selector de clase 
+    dos para que el verde esté en 127 y el azul en su máximo valor.
+*/
+
+.dos {
+    background-color: rgb(0, 255, 255);
+}
+
+/* Paso 33: 
+    Para crear el color terciario violeta, combina el magenta con azul. 
+    Modifica el valor de la función rgb en el selector de clase tres para que 
+    el azul esté en su máximo valor, y el rojo esté en 127.
+*/
+/* Paso 34:
+    Y para el rosa, el cual a veces es llamado rosado brillante modifica el valor 
+    de la función rgb del selector de clases tres para que el valor del azul 
+    sea 127 y el del rojo esté al máximo.
+*/
+
+.tres {
+    background-color: rgb(255, 0, 255);
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

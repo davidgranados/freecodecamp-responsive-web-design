@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.rojo {
+    background: linear-gradient(rgb(255, 74, 14),
+                                rgb(245, 62, 113),
+                                rgb(162, 27, 27));
+}
+
+.verde {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+}
+
+.azul {
+    background: linear-gradient(hsl(186, 76%, 16%),
+                                hsl(223, 90%, 60%),
+                                hsl(240, 56%, 42%));
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+/* Paso 74: 
+    Dentro de la regla para el selector de clase .etiqueta, 
+    elimina la propiedad opacity y su valor.
+*/
+/* Paso 75:
+    En la regla para la clase .etiqueta, utiliza la función rgba para asignar 
+    el color blanco a la propiedad background-color y dale 50% de opacidad.
+*/
+/* Paso 79:
+    En la regla CSS para la clase etiqueta, agrega la propiedad border-left-width 
+    y dale el valor de 10px.
+*/
+/* Paso 80:
+    En la regla CSS para la clase etiqueta, agrega la propiedad border-left-style 
+    y dale el valor solid.
+*/
+/* Paso 81:
+    En la regla para la clase etiqueta, agrega la propiedad border-left-color 
+    y dale el valor black.
+*/
+
+.etiqueta {
+    width: 110px;
+    height: 25px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+/* Paso 77: 
+    Crea una nueva regla CSS para la clase tope. En la nueva regla asigna 
+    el valor 60px a la propiedad width, y a la propiedad height, el valor 25px.
+*/
+
+/* Paso 78:
+    Crea una nueva regla que seleccione ambas clases tope y etiqueta,
+    y modifique el valor de su propiedad display a inline-block.
+*/

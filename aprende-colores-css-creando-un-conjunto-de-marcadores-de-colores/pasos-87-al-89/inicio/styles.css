@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+.marcador {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+/* Paso 87:
+    Actualiza los valores de la propiedad box-shadow y cambialos 
+    por -5px en el ejeX y -5px en el ejeY.
+*/
+
+.rojo {
+    background: linear-gradient(rgb(255, 74, 14),
+                                rgb(245, 62, 113),
+                                rgb(162, 27, 27));
+    box-shadow: 5px 5px red;
+}
+
+/* Paso 88:
+    Agrega la propiedad box-shadow con los valores 5px para el eje X,
+    5px para el eje Y, 5px para el blurRaidus y green para el color.
+*/
+
+.verde {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+}
+
+/* Paso 89:
+    Agrega la propiedad box-shadow con los valores 0 para los ejex X e Y,
+    0 para el blurRadius, 5px para el spreadRadius y blue para el color.
+*/
+
+.azul {
+    background: linear-gradient(hsl(186, 76%, 16%),
+                                hsl(223, 90%, 60%),
+                                hsl(240, 56%, 42%));
+}
+
+.contenedor {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.etiqueta {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, .75);
+}
+
+.tope {
+    width: 60px;
+    height: 25px;
+}
+
+.tope,
+.etiqueta {
+    display: inline-block;
+}
