@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Un breve quiz sobre accesibilidad" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz Sobre Accesibilidad</title>
+  </head>
+  <body>
+    <header>
+      <img src="../logo.svg" id="logo" />
+      <h1>Quiz HTML/CSS</h1>
+      <nav>
+        <ul>
+          <li><a>INFO</a></li>
+          <li><a>HTML</a></li>
+          <li><a>CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" action="../enviar-quiz.html">
+        <!-- Paso 16:
+                    Todo rol region necesita una etiqueta visible, la cual debería ser
+                    referenciada a través del atributo aria-labelledby.
+
+                    Dale a cada elemento <section> los siguientes valores a sus atributos
+                    aria-labelledby, en el orden correspondiente:
+
+                    info-estudiante
+                    preguntas-html
+                    preguntas-css
+
+                    Luego, dentro de cada elemento <section>, agrega un elemento <h2> con
+                    un id que se corresponda con cada atributo aria-labelledby. Dale a cada
+                    elemento <h2> un contenido de texto apropiado.
+                -->
+        <section role="region"></section>
+        <section role="region"></section>
+        <section role="region"></section>
+      </form>
+    </main>
+  </body>
+</html>
