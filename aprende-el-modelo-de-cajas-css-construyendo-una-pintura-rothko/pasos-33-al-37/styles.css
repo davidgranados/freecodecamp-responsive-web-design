@@ -1,0 +1,76 @@
+/* Paso 34:
+    Los colores y formas de tu pintura son muy puntiagudos para 
+    considerarse una pintura Rothko.
+
+    Utiliza la propiedad filter en el elemento lienzo para difuminar 
+    la pintura en 2px utilizando la función de CSS blur.
+*/
+
+.lienzo {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #4d0f00;
+}
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* Paso 37:
+    Incrementa el área y suaviza los bordes del elemento con clase uno
+    asignándole los valores 0 0 3px 3px #efb762 a su propiedad 
+    box-shadow.
+*/
+
+.uno {
+    width: 425px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: #efb762;
+}
+
+/* Paso 33:
+    Es útil que los márgenes empujen los elementos en una dirección.
+
+    En este caso, el margen inferior del elemento con clase uno empuja
+    el elemento con clase dos en 20px.
+
+    En el selector de clase para dos, utiliza el atajo margin para
+    asignar el valor del margen superior a 0, los márgenes horizontales
+    con valor auto y el margen inferior a 20px. Esto eliminará el margen
+    superior, centrará horizontalmente el elemento y dará 20px de margen 
+    inferior.
+*/
+
+.dos {
+    width: 475px;
+    height: 200px;
+    margin: auto;
+    background-color: #8f0401;
+}
+
+/* Paso 36:
+    Incrementa el difuminado de la clase tres en 2 pixeles.
+*/
+
+.tres {
+    width: 91%;
+    height: 28%;
+    margin: auto;
+    background-color: #b20403;
+}
+
+/* Paso 35:
+    Crea una regla CSS que seleccione las clases uno y dos e incremente
+    su efecto de difuminado en 1 pixel.
+
+    Aquí tienes un ejemplo que incrementa el difuminado de dos elementos:
+
+    h1, p {
+        filter: blur(3px);
+    }
+*/

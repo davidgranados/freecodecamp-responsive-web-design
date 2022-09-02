@@ -1,0 +1,43 @@
+/* Paso 21:
+    Ahora la clase uno está centrada horizontalmente, pero su margen
+    superior está empujándola por encima del lienzo hacia el borde
+    del marco, desplazando todo el lienzo 20 pixeles hacia abajo.
+
+    Agrega la propiedad padding igual a 1px en el elemento con la clase
+    lienzo para darle al elemento de clase uno algo sólido para empujar
+    hacia abajo.
+*/
+
+.lienzo {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+.marco {
+    border: 50px solid black;
+    padding: 50px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+/* Paso 17:
+    Escribe una regla para seleccionar la clase uno y asignarle un
+    ancho de 435 pixeles.
+*/
+
+/* Paso 18:
+    Ahora asigna un alto de 150 pixeles.
+*/
+
+/* Paso 19:
+    Asigna el color de fondo al valor hexadecimal #efb762.
+*/
+
+/* Paso 20:
+    Utiliza margenes para posicionar el elemento con la clase uno en
+    el lienzo.
+
+    Agrega el atajo para la propiedad margin con un margen vertical de
+    20px y un margen horizontal auto.
+*/

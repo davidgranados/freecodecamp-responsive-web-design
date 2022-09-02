@@ -1,0 +1,49 @@
+/* Paso 22:
+    Agregando 1 pixel de padding a todos los lados del lienzo cambió
+    sus dimensiones a 502 pixeles por 602 pixeles.
+
+    Reemplaza la propiedad padding por la propiedad overflow y asignale
+    el valor hidden, cambiando el lienzo de nuevo a sus dimensiones
+    originales.
+*/
+
+.lienzo {
+  width: 500px;
+  height: 600px;
+  background-color: #4d0f00;
+  padding: 1px;
+}
+
+.marco {
+  border: 50px solid black;
+  padding: 50px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.uno {
+  width: 425px;
+  height: 150px;
+  margin: 20px auto;
+  background-color: #efb762;
+}
+
+/* Paso 24:
+    Crea una nueva regla CSS utilizando el selector de clase para dos
+    y asigna su ancho a 475 pixeles.
+*/
+
+/* Paso 25:
+    Asignale el valor 200 pixeles al alto de nuestro elemento con la
+    clase dos.
+*/
+
+/* Paso 26:
+    Ahora cambia el color de fondo del elemento con clase dos al
+    valor hexadecimal #8f0401.
+*/
+
+/* Paso 27:
+    Centra el elemento con clase dos asignandole el valor auto a su
+    propiedad margin.
+*/
