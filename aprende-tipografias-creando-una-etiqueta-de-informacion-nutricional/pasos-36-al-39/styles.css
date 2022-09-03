@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+p {
+    margin: 0;
+}
+
+.divisor {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.negrita {
+    font-weight: 800;
+}
+
+.derecha {
+    float: right;
+}
+
+.gd {
+    height: 10px;
+}
+
+.gd, .md {
+    background-color: black;
+    border: 0;
+}
+
+.texto-pq {
+    font-size: 0.85rem;
+}
+
+.info-calorias h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+}
+
+/* Paso 36:
+    Dale a tu selector de descendientes .info-calorias span un margen superior de -7px.
+    Esto hará que el texto 230 se ubique en el lugar correcto.
+*/
+
+.info-calorias span {
+    font-size: 1.2em;
+}
+
+/* Paso 38:
+    Crea un selector para la clase .md y dale a su propiedad height
+    el valor 5px.
+*/

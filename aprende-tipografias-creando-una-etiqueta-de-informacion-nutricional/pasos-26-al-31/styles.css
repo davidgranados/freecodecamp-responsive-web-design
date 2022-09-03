@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+p {
+    margin: 0;
+}
+
+.divisor {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.negrita {
+    font-weight: 800;
+}
+
+.derecha {
+    float: right;
+}
+
+/* Paso 27:
+    Crea un nuevo selector .gd y dale a su propiedad height el valor 10px.
+    Además, crea una lista de selectores .gd, .md y asigna a su propiedad
+    background-color la palabra clave black.
+*/
+
+/* Paso 28:
+    Vas a notar que sigue existiendo un pequeño borde en la parte inferior
+    del elemento con la clase gd. Para eliminarlo, en la lista de selectores
+    para las clases gd y md, asigna el valor 0 a la propiedad border.
+*/
+
+/* Paso 31:
+    Crea un selector de clase para texto-pq y asigna a su propiedad font-size
+    el valor 0.85rem, el cual calculará un valor aproximado de 13.6px.
+    (recuerda que le asignaste al html un tamaño de fuente de 16px).
+*/

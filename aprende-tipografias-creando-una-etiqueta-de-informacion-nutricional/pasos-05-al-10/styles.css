@@ -1,0 +1,26 @@
+/* Paso 5:
+    Crea un selector para el elemento body y modifica su propiedad
+    font-family a Open Sans y como respaldo la sans-serif.
+
+    Recuerda que las fuentes que tienen espacios en sus nombres deben
+    entre comillas.
+*/
+/* Paso 6:
+    El tamaño de la fuente es un poco pequeño. Crea un selector para
+    el elemento html y cambia el tamaño de fuente a 16px.
+*/
+/* Paso 8:
+    Crea un selector para la clase etiqueta y dale a su propiedad
+    border el valor 2px solid black
+*/
+/* Paso 9:
+    Un buen uso de espacios en blanco puede atraer el enfoque a los
+    elementos importantes de tu página, y ayudar a guiar la vista
+    de los usuarios a través del texto.
+
+    Dale a tu selector para la clase etiqueta un ancho de 350px
+*/
+/* Paso 10:
+    Dale a tu selector para .etiqueta los valores 20px auto a su
+    propiedad margin y 0 7px a su propiedad padding.
+*/

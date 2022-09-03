@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etiqueta de Informacion Nutricional</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    </head>
+    <body>
+        <div class="etiqueta">
+            <header>
+                <h1 class="negrita">Informacion Nutricional</h1>
+                <div class="divisor"></div>
+                <p>8 porciones por envase</p>
+                <p class="negrita">Tamaño de la porción <span class="derecha">2/3 de taza (55g)</span></p>
+            </header>
+            <div class="divisor gd"></div>
+            <div class="info-calorias">
+                <p class="negrita texto-pq">Cantidad por porción</p>
+                <h1><span class="derecha">230</span> Calorias</h1>
+            </div>
+            <div class="divisor md"></div>
+            <div class="valor-diario texto-pq">
+                <!-- Paso 40:
+                    La propiedad float está causando que el nuevo elemento <p> se
+                    posicione fuera del borde de la etiqueta. Utiliza el elemento
+                    existente .divisor como guía para agregar un nuevo divisor
+                    luego del elemento <p>.
+                -->
+                <p class="derecha negrita">% de Valor Diario *</p>
+                <!-- Paso 42:
+                    Luego de tu último elemento .divisor, agrega un elemento <p> que
+                    contenga el texto Grasas Totales 8g 10%. Rodea el texto Grasas Totales
+                    en un elemento <span> con la clase negrita. Rodea el 10% con otro <span>
+                    con las clases negrita derecha.
+                -->
+                <!-- Paso 43:
+                    Debajo del elemento con el texto Grasas Totales, crea un nuevo elemento <p>
+                    con el texto Grasas Saturadas 1g 5%. Rodea el texto 5% en un elemento <span>
+                    con las clases negrita derecha.
+                -->
+                <!-- Paso 44:
+                    Este nuevo elemento <p> necesitará estar indentado.
+                    Dale a su atributo class el valor indentado.
+                -->
+            </div>
+        </div>
+    </body>
+</html>

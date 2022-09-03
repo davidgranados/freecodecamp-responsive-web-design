@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etiqueta de Informacion Nutricional</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    </head>
+    <body>
+        <div class="etiqueta">
+            <header>
+                <h1 class="negrita">Informacion Nutricional</h1>
+                <div class="divisor"></div>
+                <p>8 porciones por envase</p>
+                <p class="negrita">Tamaño de la porción <span class="derecha">2/3 de taza (55g)</span></p>
+            </header>
+            <div class="divisor gd"></div>
+            <div class="info-calorias">
+                <p class="negrita texto-pq">Cantidad por porción</p>
+                <h1><span class="derecha">230</span> Calorias</h1>
+            </div>
+            <div class="divisor md"></div>
+            <div class="valor-diario texto-pq">
+                <p class="derecha negrita no-divisor">% de Valor Diario *</p>
+                <div class="divisor"></div>
+                <p><span class="negrita">Grasas Totales</span> 8g <span class="negrita derecha">10%</span></p>
+                <p class="indentado no-divisor">Grasas Saturadas 1g <span class="negrita derecha">5%</span></p>
+                <div class="divisor"></div>
+                <p class="indentado no-divisor">Grasas <i>Trans</i> 0g</p>
+                <div class="divisor"></div>
+                <!-- Paso 52:
+                    Luego del último elemento con la clase divisor, crea un nuevo elemento <p>
+                    con el texto Colesterol 0mg 0%. Rodea el texto Colesterol con un elemento <span>
+                    y dale la clase negrita. Rodea el texto 0% con otro elemento <span> que tenga las
+                    clases negrita derecha.
+                -->
+                <!-- Paso 53:
+                    Debajo del último elemento <p>, crea otro elemento <p> con el texto 
+                    Sodio 160mg 7%. Rodea el texto Sodio con un elemento <span> que tenga
+                    la clase negrita, el texto 7% con otro <span> que tenga las clases
+                    negrita derecha.
+                -->
+                <!-- Paso 54:
+                    Agrega otro elemento <p> con el texto Carbohidratos Totales 37g 13%.
+                    Al igual que el resto de los elementos, utiliza elementos <span>
+                    para hacer que el texto Carbohidratos Totales esté en negritas y el
+                    13% esté en negritas alineado a la derecha.
+                -->
+                <!-- Paso 55:
+                    Debajo del último elemento <p> que agregaste, crea otro elemento <p> 
+                    con el texto Fibra Dietetica 4g. Dale al elemento <p> las clases
+                    necesarias para indentar y eliminar el borde divisor. Luego, crea un
+                    elemento divisor debajo de ese <p>.
+                -->
+                <!-- Paso 56:
+                    Crea un nuevo elemento <p> luego del último .divisor, que tenga el texto
+                    Azúcares Totales 12g. Asignale al elemento <p> las clases necesarias para
+                    indentarlo y eliminar el borde inferior. Luego, crea otro elemento .divisor
+                    debajo de este elemento <p>.
+                -->
+                <!-- Paso 57:
+                    La ventaja de utilizar estos divisores, es que podemos aplicar clases
+                    específicas para darles estilos de manera individual. 
+                                    
+                    Agrega el valor indentado-dbl al último divisor.
+                -->
+            </div>
+        </div>
+    </body>
+</html>

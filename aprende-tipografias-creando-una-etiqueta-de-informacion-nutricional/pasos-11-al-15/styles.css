@@ -1,0 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+.etiqueta {
+    border: 2px solid black;
+    width: 350px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+/* Paso 11:
+    Si inspeccionas tu elemento .etiqueta con las herramientas de
+    desarrollador de tu navegador, podrás notar que en realidad
+    tiene 368px de ancho en lugar de 350. Esto se debe a que, por
+    defecto, el navegador incluye los valores correspondientes a las
+    propiedades border y padding cuando calcula el tamaño de un elemento.
+
+    Para solucionar esto, reinicia el modelo de cajas creando el selector
+    universal * y dándole el valor border-box a su propiedad box-sizing.
+*/
+/* Paso 12:
+    Recuerda que el uso de los elementos <h1>, <h2> y similares,
+    determinan la estructura semantica de tu HTML. Sin embargo,
+    puedes modificar los estilos CSS de estos elementos para controlar
+    el flujo visual y jerarquía.
+
+    Crea una regla para el elemento <h1> que modifique su propiedad
+    font-weight a 800. Esto hará que el texto del <h1> sea más denso.
+*/
+/* Paso 13:
+    Cambia el valor de la propiedad text-align a center en el selector
+    para el <h1>.
+*/
+/* Paso 14:
+    Ajusta la posición del <h1> dándole un margen superior e inferior
+    de -4px y el valor 0 a sus margenes laterales.
+*/
+/* Paso 15:
+    Crea un selector para el elemento <p> y elimina todos sus margenes.
+*/
