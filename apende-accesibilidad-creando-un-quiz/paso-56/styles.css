@@ -120,6 +120,11 @@ input {
     Además, alinea el texto a la derecha.
 */
 
+.info label, .info input {
+    display: inline-block;
+    text-align: right;
+}
+
 .info input {
     width: 50%;
     text-align: left;

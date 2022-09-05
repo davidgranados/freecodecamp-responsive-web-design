@@ -162,16 +162,17 @@ button {
 }
 
 footer {
-    background-color: #2a2a40;
+    background-color: #202020;
     display: flex;
     justify-content: center;
 }
 
 footer, footer a {
-    color: #fff;
+    color: #dfdfe2;
 }
 
 /* Paso 64:
     Centra horizontalmente todo el texto dentro del elemento address y
     agrega algo de padding.
 */
+

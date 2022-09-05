@@ -162,11 +162,11 @@ button {
 }
 
 footer {
-    background-color: #2a2a40;
+    background-color: #202020;
     display: flex;
     justify-content: center;
 }
 
 footer, footer a {
-    color: #fff;
+    color: #dfdfe2;
 }
