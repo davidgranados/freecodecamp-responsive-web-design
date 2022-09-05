@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Un breve quiz sobre accesibilidad" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Quiz Sobre Accesibilidad</title>
+    </head>
+    <body>
+        <header>
+            <img src="../logo.svg" id="logo">
+            <h1>Quiz HTML/CSS</h1>
+            <nav>
+                <ul>
+                    <li><a>INFO</a></li>
+                    <li><a>HTML</a></li>
+                    <li><a>CSS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Paso 15:
+                Para incrementar la accesibilidad de la página, se puede utilizar 
+                el atributo role para indicar el propósito de un elemento en la
+                página para efectos de tecnologías de asistencia. El atributo role
+                es parte de la Iniciativa de Accesibilidad Web (WAI en inglés) y
+                acepta valores preestablecidos.
+
+                Dale a cada elemento <section> el rol region.
+                
+            -->
+            <form method="post" action="../enviar-quiz.html">
+                <section></section>
+                <section></section>
+                <section></section>
+            </form>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+/* Paso 10:
+    Haz que el header tome todo el ancho de su contenedor, asigna el
+    valor 50px a su propiedad height, y dale el color de fondo #202020.
+    Luego, haz que se vuelva un elemento Flexbox.
+*/
+
+
+#logo {
+    width: max(100px, 18vw);
+    background-color: #202020;
+    aspect-ratio: 16 / 9;
+    padding: 0.1rem;
+}
