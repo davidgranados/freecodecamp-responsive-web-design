@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+#piano {
+    background-color: #202020;
+    width: 992px;
+    height: 290px;
+    margin: 80px auto;
+    padding: 90px 20px 0 20px;
+}
+
+.teclas {
+    background-color: #040404;
+    width: 949px;
+    height: 180px;
+    padding-left: 2px;
+}
+
+.tecla {
+    background-color: #fff;
+    position: relative;
+    width: 41px;
+    height: 175px;
+    margin: 2px;
+    float: left;
+}
+
+/* Paso 18:
+    Ahora, vamos a utilizar los pseudo-selectores que preparamos en pasos anteriores.
+    Para crear las teclas negras, agrega un nuevo selector .tecla.tecla--negra::after 
+    este se encargara de seleccionar los elementos con las clases tecla tecla--negra y
+    seleccionar el último pseudo-elemento de estos elementos en el HTML.
+
+    En el nuevo selector, asgina un color de fondo hex #1d1e22. Demás, dale a su propiedad
+    content el valor "". Esto hará que los pseudo-elementos estén vacíos.
+
+    La propiedad content es utilizada para asignar o sobreescribir el contenido de un elemento.
+    Por defecto, los pseudo-elementos están vacíos, y los elementos no serán renderizados en la página.
+    Asingnando una cadena vacía "" a la propiedad content, asegurará que el elemento sea renderizado en la
+    página a pesar de estar vacío.
+
+    Si quieres experimentar, intenta eliminar el color de fondo y asignar diferentes valores a la propiedad
+    content, tal como "♥". Recuerda deshacer estos cambios cuando hayas terminado de realizar tus pruebas.
+*/

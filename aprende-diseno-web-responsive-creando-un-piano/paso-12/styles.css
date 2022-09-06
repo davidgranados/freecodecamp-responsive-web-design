@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+/* Paso 12:
+    Asignale a su margin el valor 80px auto.
+*/
+
+#piano {
+    background-color: #202020;
+    width: 992px;
+    height: 290px;
+}

@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+/* Paso 11:
+    Ahora, crea un selector para el elemento con id #piano.
+    Asignale a su propiedad background-color el valor hex #202020,
+    a la propiedad width el valor 992px y 290px al height.
+*/

@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+#piano {
+    background-color: #202020;
+    width: 992px;
+    height: 290px;
+    margin: 80px auto;
+}
+
+/* Paso 14:
+    Dale a las .teclas un padding-left de 2px.
+*/
+
+.teclas {
+    background-color: #040404;
+    width: 949px;
+    height: 180px;
+}

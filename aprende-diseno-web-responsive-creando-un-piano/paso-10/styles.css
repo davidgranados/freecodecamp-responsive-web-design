@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+/* Paso 10:
+    Ahora que reiniciaste el modelo de cajas html, vas a necesitar que todos los elementos
+    descendientes de este también reciban estos estilos. Para lograrlo, puedes asignarle a la
+    propiedad box-sizing el valor inherit, el cual le indica al elemento seleccionado que utilice
+    el mismo valor que su elemento padre.
+
+    También vas a necesitar seleccionar algunos pseudo-elementos, los cuales no son más que palabras
+    clave que preceden un selector. Dos de los pseudo-elementos que estaremos utilizando en este proyecto
+    serán ::before y ::after.
+
+    El ::before crea un pseudo-elemento que contiene el primer hijo del elemento seleccionado, mientras que el
+    ::after crea un pseudo-elemento con el último hijo del elemento seleccionado. Estos pseudo-elementos se utilizan
+    comunmente para crear contenido a nivel estético, como veremos más adelante.
+
+    Por ahora, crea un selector CSS para seleccionar todos los elementos (selector universal *) e incluye los
+    pseudo-elementos con ::before y ::after. Asigna a su propiedad box-sizing el valor inherit.
+*/

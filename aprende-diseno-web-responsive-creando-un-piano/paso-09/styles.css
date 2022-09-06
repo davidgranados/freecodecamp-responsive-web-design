@@ -1,0 +1,7 @@
+/* Paso 9:
+    Los navegadores puede aplicar valores por defecto en las propiedades margin y padding de 
+    algunos elementos. Para asegurarnos de que nuestro piano se vea de la manera que deseamos,
+    vamos a reiniciar el modelo de cajas de HTML.
+
+    Agrega un selector para el elemento html y dale a su propiedad box-sizing el valor border-box.
+*/

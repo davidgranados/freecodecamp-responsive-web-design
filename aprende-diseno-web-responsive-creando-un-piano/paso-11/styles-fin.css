@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+#piano {
+    background-color: #202020;
+    width: 992px;
+    height: 290px;
+}
