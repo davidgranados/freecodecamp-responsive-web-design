@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Un breve quiz sobre accesibilidad" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Quiz Sobre Accesibilidad</title>
+    </head>
+    <body>
+        <header>
+            <img src="../logo.svg" id="logo">
+            <h1>Quiz HTML/CSS</h1>
+            <nav>
+                <ul>
+                    <li><a href="#info-estudiante">INFO</a></li>
+                    <li><a href="#preguntas-html">HTML</a></li>
+                    <li><a href="#preguntas-css">CSS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form method="post" action="../../enviar-quiz.html">
+                <section role="region" aria-labelledby="info-estudiante">
+                    <h2 id="info-estudiante">Info Estudiante</h2>
+                        <div class="info">
+                            <label for="nombre">Nombre: </label><input id="nombre" type="text" name="nombre">
+                        </div>
+                        <div class="info">
+                            <label for="email">E-mail: </label><input id="email" type="email" name="email">
+                        </div>
+                        <div class="info">
+                            <label for="nacimiento">F.D.N.<span class="sr-only">(Fecha de Nacimiento)</span> </label><input id="nacimiento" type="date" name="nacimiento">
+                        </div>
+                </section>
+                <section role="region" aria-labelledby="preguntas-html">
+                    <h2 id="preguntas-html">Preguntas HTML</h2>
+                    <!-- Paso 28:
+                        Dale a cada elemento <fieldset> el atributo name adecuado.
+                        Luego, dale a ambas listas desordenadas la clase lista-respuestas.
+
+                        Por último, utiliza el elemento <legend> para describir el contenido
+                        del <fieldset> colocando una pregunta de verdadero/falso como texto
+                        de contenido.
+                    -->
+                    <div class="bloque-preguntas">
+                        <p>1</p>
+                        <fieldset class="pregunta">
+                            <legend></legend>
+                            <!-- Paso 29:
+                                Para proporcionar funcionalidad a las preguntas verdadero/falso,
+                                vamos a necesitar una serie de elementos <input> que no permitan
+                                que ambas respuestas sean seleccionadas al mismo tiempo.
+                            
+                                Dentro de cada elemento <li>, agrega un elemento <label> y dentro
+                                de cada <label>, agrega un <input> con el atributo type apropiado.
+                            -->
+                            <!-- Paso 30:
+                                A pesar de que no es requerido para los elementos <label>
+                                que tienen anidado un elemento <input>, es una buena práctica
+                                vincular explícitamente dichos elementos con su <input>
+                                correspondiente.
+                            
+                                Vincula los elementos <label> con sus <input> correspondientes.
+                            -->
+                            <!-- Paso 31:
+                                Dale a los elementos <label> un contenido que se encuentre
+                                después de los <input>. Luego, dale a los <input> el atributo
+                                value que coincida con ese texto.
+                            
+                                El texto debe ser Verdadero o Falso.
+                            -->
+                            <ul>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="bloque-preguntas">
+                        <p>2</p>
+                        <fieldset class="pregunta">
+                            <legend></legend>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                </section>
+                <section role="region" aria-labelledby="preguntas-css">
+                    <h2 id="preguntas-css">Preguntas CSS</h2>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>

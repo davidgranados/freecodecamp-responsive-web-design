@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Un breve quiz sobre accesibilidad" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quiz Sobre Accesibilidad</title>
+  </head>
+  <body>
+    <header>
+      <img src="../logo.svg" id="logo" />
+      <h1>Quiz HTML/CSS</h1>
+      <nav>
+        <ul>
+          <li><a href="#info-estudiante">INFO</a></li>
+          <li><a href="#preguntas-html">HTML</a></li>
+          <li><a href="#preguntas-css">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" action="../../enviar-quiz.html">
+        <section role="region" aria-labelledby="info-estudiante">
+          <h2 id="info-estudiante">Info Estudiante</h2>
+          <div class="info">
+            <label for="nombre">Nombre: </label
+            ><input id="nombre" type="text" name="nombre" />
+          </div>
+          <div class="info">
+            <label for="email">E-mail: </label
+            ><input id="email" type="email" name="email" />
+          </div>
+          <div class="info">
+            <label for="nacimiento"
+              >F.D.N.<span class="sr-only">(Fecha de Nacimiento)</span> </label
+            ><input id="nacimiento" type="date" name="nacimiento" />
+          </div>
+        </section>
+        <section role="region" aria-labelledby="preguntas-html">
+          <h2 id="preguntas-html">Preguntas HTML</h2>
+          <div class="bloque-preguntas">
+            <p>1</p>
+            <fieldset class="pregunta" name="pregunta-1">
+              <legend>
+                ¿El elemento legend representa una descripción para el contenido
+                de su elemento padre fieldset?
+              </legend>
+              <ul class="lista-respuestas">
+                <li>
+                  <label for="preg1-resp1">
+                    <input
+                      type="radio"
+                      id="preg1-resp1"
+                      value="verdadero"
+                      name="resp1"
+                    />
+                    Verdadero
+                  </label>
+                </li>
+                <li>
+                  <label for="preg1-resp2">
+                    <input
+                      type="radio"
+                      id="preg1-resp2"
+                      value="falso"
+                      name="resp1"
+                    />
+                    Falso
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="bloque-preguntas">
+            <p>2</p>
+            <fieldset class="pregunta" name="pregunta-2">
+              <legend>
+                ¿Un elemento label, anidando un elemento input requiere tener el
+                atributo for con el mismo valor que el atributo id del input?
+              </legend>
+              <ul class="lista-respuestas">
+                <li>
+                  <label for="preg2-resp1">
+                    <input
+                      type="radio"
+                      id="preg2-resp1"
+                      value="verdadero"
+                      name="resp2"
+                    />
+                    Verdadero
+                  </label>
+                </li>
+                <li>
+                  <label for="preg2-resp2">
+                    <input
+                      type="radio"
+                      id="preg2-resp2"
+                      value="falso"
+                      name="resp2"
+                    />
+                    Falso
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+        </section>
+        <section role="region" aria-labelledby="preguntas-css">
+          <h2 id="preguntas-css">Preguntas CSS</h2>
+          <div class="fila-formulario">
+            <!-- Paso 37:
+                Vincula el primer elemento <label> al elemento <select>,
+                y dale a este último elemento el atributo name.
+            -->
+            <div class="bloque-pregunta">
+              <label>¿Eres desarrollador Frontend?</label>
+            </div>
+            <div class="respuesta">
+              <select required>
+                <option value="">Selecciona una opción</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <!-- Paso 39:
+                Al igual que con los elementos <label> e <input> anteriores, vincula
+                el <textarea> con su elemento <label> correspondiente y dale valor a
+                su atributo name.
+            -->
+            <div class="bloque-pregunta">
+              <label>¿Tienes alguna pregunta?</label>
+            </div>
+            <!-- Paso 38:
+                Agrega un <textarea> dentro del segundo elemento .respuesta y
+                haz que tenga un número definido de filas y columnas.
+                        
+                Luego, dale un placeholder a este <textarea> que describa una
+                respuesta de ejemplo.
+            -->
+            <div class="respuesta"></div>
+          </div>
+        </section>
+        <!-- Paso 40:
+            No olvides darle a tu formulario un botón de envío.
+        -->
+        <!-- Paso 41:
+            Luego del elemento <main>, agrega un <footer> y dentro anida un elemento <address>.
+        -->
+        <!-- Paso 42:
+            Dentro del elemento <address>, agrega lo siguiente:
+                
+            7even<br />
+            Calle Principal<br />
+            123
+        -->
+      </form>
+    </main>
+  </body>
+</html>

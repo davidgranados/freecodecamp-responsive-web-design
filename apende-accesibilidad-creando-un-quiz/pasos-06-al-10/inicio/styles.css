@@ -1,0 +1,26 @@
+body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+/* Paso 8:
+    En este momento, el elemento img está recibiendo su tamaño por defecto,
+    el cual es demasiado grande. Modificalo al tamaño correcto para escalar
+    la imagen utilizando su atributo id como selector, y dale a su propiedad
+    width el valor max(100px, 18vw).
+*/
+
+/* Paso 9:
+    Primero, cambia el color de fondo #202020, para que puedas ver
+    el logo. Luego, utiliza la propiedad aspect-ratio para asignar
+    el valor deseado (16 / 9). Por último, agrega un padding de
+    0.1rem alrededor.
+*/
+
+/* Paso 10:
+    Haz que el header tome todo el ancho de su contenedor, asigna el
+    valor 50px a su propiedad height, y dale el color de fondo #202020.
+    Luego, haz que se vuelva un elemento Flexbox.
+*/

@@ -1,0 +1,121 @@
+body {
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    width: max(100px, 18vw);
+    background-color: #202020;
+    aspect-ratio: 35 / 4;
+    padding: 0.1rem;
+}
+
+/* Paso 48:
+    Cuando el ancho de la pantalla es pequeño, el elemento h1 no envuelve
+    su texto como debería. Alínea el texto del elemento h1 hacia el centro.
+
+    Luego, dale al elemento main un padding que permita que el texto de la
+    sección Info Estudiante se pueda ver completa.
+*/
+
+h1 {
+    color: #f1be32;
+    font-size: min(5vw, 1.2em);
+}
+
+/* Paso 49:
+    En pantallas pequeñas, la lista desordenada en la barra de navegación
+    se desborda en el lado derecho de la pantalla.
+
+    Corrige esto utilizando flexbox para envolver el contenido del elemento <ul>.
+    Luego, asignale las siguientes propiedades CSS para alinear el texto correctamente:
+
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+*/
+
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1, h2 {
+    font-family: Verdana, Tahoma;
+}
+
+/* Paso 51:
+    Reemplaza el margen superior en el elemento h2 con un padding superior de 60px.
+*/
+
+h2 {
+    border-bottom: 4px solid #dfdfe2;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+p::before {
+    content: "Pregunta #";
+}
+
+nav li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav li:hover {
+    background-color: #dfdfe2;
+    color: #202020;
+    cursor: pointer;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Paso 50:
+    Asigna el ancho de los elementos section a 80% del tamaño de su contenedor.
+    Luego, utiliza márgenes para centrar estos elementos y dales un margen
+    inferior de 10px.
+
+    Además, asegurate de que los elementos section no tengan un ancho superior a
+    los 600px.
+*/
+
+/* Paso 52:
+    Agrega un padding en la parte superior e izquierda de los elementos .info,
+    asigna los demás valores a 0
+*/
