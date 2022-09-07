@@ -1,0 +1,15 @@
+.rueda {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+/* Paso 6:
+    Crea un selector para la .linea y dale un color de fondo
+    black, su ancho será de 50% y su alto de 2px.
+*/

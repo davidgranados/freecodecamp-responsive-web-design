@@ -1,0 +1,30 @@
+.rueda {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.linea {
+    background-color: black;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 0% 0%;
+}
+
+/* Paso 9:
+    Crea un selector para tu sengunda .linea y asigna a su propiedad
+    transform el valor rotate(60deg).
+
+    Recuerda que la propiedad transform te permite manipular la forma de
+    un elemento. En este caso, utilizando el valor rotate(60deg) rotaremos
+    el elemento sobre su eje (transform-origin) en 60° en sentido de las
+    agujas del reloj.
+*/

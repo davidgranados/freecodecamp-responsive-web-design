@@ -1,0 +1,33 @@
+.rueda {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.linea {
+    background-color: black;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 0% 0%;
+}
+
+.linea:nth-of-type(2) {
+    transform: rotate(60deg);
+}
+
+/* Paso 10:
+    Utilizando el mismo patrón, crea un selector aparte para
+    seleccionar la tercera, cuarta, quinta y sexta .linea.
+
+    Asigna a la propiedad transform de la tercera .linea el valor
+    rotate(120deg), a la cuarta rotate(180deg), a la quinta rotate(240deg)
+    y a la última rotate(300deg).
+*/

@@ -1,0 +1,10 @@
+/* Paso 4:
+    Asigna a la propiedad position de la .rueda el valor absolute.
+    A su alto y ancho el valor 55vw.
+*/
+
+.rueda {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+}

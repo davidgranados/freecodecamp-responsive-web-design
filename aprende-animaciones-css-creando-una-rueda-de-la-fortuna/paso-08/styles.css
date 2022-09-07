@@ -1,0 +1,30 @@
+.rueda {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+/* Paso 8:
+    La propiedad transform-origin es utilizada para indicar el punto sobre el
+    cual CSS va aplicar la transformación. Por ejemplo, cuando aplicamos un
+    rotate (que veremos más adelante en este proyecto), el transform-origin determina
+    sobre cual punto el elemento será rotado.
+
+    Dale al selector .linea la propiedad transform-origin con valor 0% 0%. Esto compensará
+    el punto de origen a 0% de la izquierda y 0% del tope, asignandolo a la esquina superior
+    izquierda del elemento.
+*/
+
+.linea {
+    background-color: black;
+    width: 50%;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

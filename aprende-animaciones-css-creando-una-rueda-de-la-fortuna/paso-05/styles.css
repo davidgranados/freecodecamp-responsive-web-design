@@ -1,0 +1,12 @@
+/* Paso 5:
+    Ahora, dale a la .rueda un max-height y max-width de 500px.
+*/
+
+.rueda {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+}

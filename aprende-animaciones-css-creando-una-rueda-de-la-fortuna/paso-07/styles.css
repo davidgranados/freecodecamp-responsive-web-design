@@ -1,0 +1,21 @@
+.rueda {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    height: 55vw;
+    width: 55vw;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+/* Paso 7:
+    Asigna al selector para .linea el valor absolute a su propiedad position,
+    la propiedad left a 50% y la propiedad top a 50%.
+*/
+
+.linea {
+    background-color: black;
+    width: 50%;
+    height: 2px;
+}
