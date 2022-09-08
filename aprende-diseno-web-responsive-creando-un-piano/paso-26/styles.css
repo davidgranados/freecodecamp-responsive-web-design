@@ -31,11 +31,12 @@ html {
     height: 175px;
     margin: 2px;
     float: left;
+    border-radius: 0 0 3px 3px;
 }
 
 /* Paso 26:
     Agrega también al selector .tecla.tecla--negra::after la propiedad border-radius
-    con los valores 0 0 3px 3px para que sea igualal de las teclas.
+    con los valores 0 0 3px 3px para que sea igual al de las teclas.
 */
 
 .tecla.tecla--negra::after {

@@ -64,7 +64,7 @@ html {
     }
 }
 
-@media (max-width: 1199px ) and (min-width: 769px) { 
+@media (min-width: 769px) and (max-width: 1199px) { 
     #piano {
         width: 675px;
     }
